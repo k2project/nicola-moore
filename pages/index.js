@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import { Fragment } from 'react';
+import Top from '../components/home-page/Top';
 
 export default function Home() {
     return (
@@ -11,7 +11,9 @@ export default function Home() {
             </Head>
 
             <main>
-                <header className='bg-theme home-header'>
+                <h1 className='sr-only'>Welcome to Nicola Moore's website.</h1>
+                <Top />
+                {/* <header className='bg-theme home-header'>
                     <img src='/imgs/bg_top.png' alt='' className='bg-top' />
                     <nav>
                         <ul>
@@ -36,7 +38,7 @@ export default function Home() {
                             Counselling &amp; Psychotherapy with Nicola Moore.
                         </h2>
                     </div>
-                </header>
+                </header> */}
             </main>
         </Fragment>
     );
