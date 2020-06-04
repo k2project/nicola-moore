@@ -10,12 +10,13 @@ export default function Online() {
                 </p>
                 <p>
                     Is it time to talk about the issues that stop you enjoying
-                    life? ...to gain an understanding of your relationships?
-                    ...to be happy?
+                    life... gaining an understanding of your relationships... or
+                    being happy? It’s not always easy.
                 </p>
-                <p>It’s not always easy, is it?</p>
                 <p>
-                    <strong>It's time! Find the confidence to be you...</strong>
+                    <strong>
+                        Yes, it's time! Find the confidence to be you.
+                    </strong>
                 </p>
             </div>
             <div className='section-text bg--secondary-dark'>
