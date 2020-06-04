@@ -48,7 +48,7 @@ export default function Top() {
                 />
                 <div className='top-abs top-strapline'>
                     {/* <p className='title'>Are you ok?</p> */}
-                    <Input init='Helping YOU!' />
+                    <Input init='How are YOU?' />
                     <h2>Counselling &amp; Psychotherapy with Nicola Moore.</h2>
                 </div>
             </div>
