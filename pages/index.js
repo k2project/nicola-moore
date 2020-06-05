@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import { Fragment } from 'react';
+import Header from '../components/Header';
 import Top from '../components/home-page/Top';
 import Online from '../components/home-page/Online';
+import Hello from '../components/home-page/Hello';
 
 export default function Home() {
     return (
@@ -12,9 +14,10 @@ export default function Home() {
             </Head>
 
             <main>
-                <h1 className='sr-only'>Welcome to Nicola Moore's website.</h1>
+                <Header />
                 <Top />
                 <Online />
+                <Hello />
             </main>
         </Fragment>
     );

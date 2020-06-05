@@ -1,58 +1,29 @@
 import React from 'react';
-import Link from 'next/link';
 import Input from '../demo/Input';
 
 export default function Top() {
     return (
         <section className='home-top'>
+            <img src='/imgs/bg_home_2.2.png' alt='' className='top-rel' />
             <div>
                 <img
-                    src='/imgs/bg_home_1_left.png'
+                    src='/imgs/bg_home_3.2_left.png'
                     alt=''
                     className='top-rel'
                 />
                 <img
-                    src='/imgs/bg_home_1_right.png'
-                    alt=''
-                    className='top-abs'
-                />
-                <nav className='top-abs'>
-                    <ul>
-                        <li>
-                            <Link href='/about'>
-                                <a>Get to know me</a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href='/therapy'>
-                                <a>What's therapy about?</a>
-                            </Link>
-                        </li>
-                        <li>
-                            <a href='#'>Reaching out</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <img src='/imgs/bg_home_2.png' alt='' className='top-rel' />
-            <div>
-                <img
-                    src='/imgs/bg_home_3_left.png'
-                    alt=''
-                    className='top-rel'
-                />
-                <img
-                    src='/imgs/bg_home_3_right.png'
+                    src='/imgs/bg_home_3.2_right.png'
                     alt=''
                     className='top-abs'
                 />
                 <div className='top-abs top-strapline'>
                     {/* <p className='title'>Are you ok?</p> */}
-                    <Input init='How are YOU?' />
-                    <h2>Counselling &amp; Psychotherapy with Nicola Moore.</h2>
+                    <Input init='Not fitting in?' />
+                    <h2>Find out how to be YOU and be HAPPY.</h2>
+                    <p>Counselling &amp; Psychotherapy with Nicola.</p>
                 </div>
             </div>
-            <img src='/imgs/bg_home_4.png' alt='' className='top-rel' />
+            <img src='/imgs/bg_home_4.2.png' alt='' className='top-rel' />
         </section>
     );
 }
