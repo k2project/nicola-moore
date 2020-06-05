@@ -1,11 +1,35 @@
 import React, { useState, Fragment, useEffect } from 'react';
 
 export default function FontPicker() {
+    const [fontPicker, showFontPicker] = useState(false);
+    const [clicked, setClicked] = useState(false);
+    useEffect(() => {
+        Array.from(document.querySelectorAll('li.weight')).forEach((el) => {
+            el.classList.remove('active');
+            if (
+                el.textContent ===
+                document.querySelector('.home-top input').style.fontWeight
+            )
+                el.classList.add('active');
+        });
+        Array.from(document.querySelectorAll('li.font')).forEach((el) => {
+            el.classList.remove('active');
+            const cls = el.textContent.toLowerCase().split(' ').join('-');
+            if (document.querySelector('main').classList.contains(cls))
+                el.classList.add('active');
+        });
+        if (fontPicker && !clicked) {
+            document
+                .querySelector('li.weight:last-child')
+                .previousElementSibling.classList.add('active');
+            document.querySelector('li.font').classList.add('active');
+        }
+    }, [fontPicker]);
     const fonts = [
-        ['Segoe UI', 'active'],
-        ['Josefin Sans'],
-        ['Merriweather Sans'],
-        ['Fira Sans'],
+        'Segoe UI',
+        'Josefin Sans',
+        'Merriweather Sans',
+        'Fira Sans',
     ];
     const changeFont = (font) => {
         document.querySelector('main').classList = font
@@ -13,8 +37,8 @@ export default function FontPicker() {
             .split(' ')
             .join('-');
     };
-    const weights = [[100], [200], [300], [400], [500, 'active'], [600]];
-    const [fontPicker, showFontPicker] = useState(false);
+    const weights = [100, 200, 300, 400, 500, 600];
+
     const setActiveClass = (selector, target) => {
         Array.from(document.querySelectorAll(selector)).forEach((el) =>
             el.classList.remove('active')
@@ -33,34 +57,30 @@ export default function FontPicker() {
                         <b onClick={() => showFontPicker(false)}>&times;</b>
                     </p>
                     {fonts.map((font) => (
-                        <li
-                            key={font[0]}
-                            className={font[1] ? 'font active' : 'font'}
-                        >
+                        <li key={font} className='font'>
                             <span
                                 onClick={(e) => {
-                                    changeFont(font[0]);
+                                    changeFont(font);
                                     setActiveClass('li.font', e.target);
+                                    setClicked(true);
                                 }}
                             >
-                                {font[0]}
+                                {font}
                             </span>
                         </li>
                     ))}
                     {weights.map((weight) => (
-                        <li
-                            key={weight[0]}
-                            className={weight[1] ? 'weight active' : 'weight'}
-                        >
+                        <li key={weight} className='weight'>
                             <span
                                 onClick={(e) => {
                                     document.querySelector(
                                         '.home-top input'
-                                    ).style.fontWeight = weight[0];
+                                    ).style.fontWeight = weight;
                                     setActiveClass('li.weight', e.target);
+                                    setClicked(true);
                                 }}
                             >
-                                {weight[0]}
+                                {weight}
                             </span>
                         </li>
                     ))}
