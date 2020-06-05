@@ -14,6 +14,7 @@ export default function ColorPicker() {
         document.body.classList = 'c-' + color;
     };
     const [colorPicker, showColorPicker] = useState(false);
+
     return (
         <Fragment>
             <div
