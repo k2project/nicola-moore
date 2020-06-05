@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Top from '../components/home-page/Top';
 import Online from '../components/home-page/Online';
 import Hello from '../components/home-page/Hello';
+import ColorPicker from '../components/demo/ColorPicker';
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
                 <Top />
                 <Online />
                 <Hello />
+                <ColorPicker />
             </main>
         </Fragment>
     );

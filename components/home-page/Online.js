@@ -20,6 +20,11 @@ export default function Online() {
                 </p>
             </div>
             <div className='section-text bg--secondary-dark'>
+                {/* <img
+                    src='/imgs/ppl_online.png'
+                    alt=''
+                    className='online-drawing'
+                /> */}
                 <h2 className='section-title'>
                     Benefit from a therapy{' '}
                     <b className='color--theme'>wherever you are...</b>
@@ -44,11 +49,6 @@ export default function Online() {
                         It’s never been easier to get the support you need.
                     </strong>
                 </p>
-                {/* <img
-                    src='/imgs/ppl_online.png'
-                    alt=''
-                    className='online-drawing'
-                /> */}
             </div>
         </section>
     );
