@@ -9,6 +9,7 @@ export default function ColorPicker() {
         '323537',
         '444750',
         '333533',
+        '24292e',
     ];
     const changeColor = (color) => {
         document.body.classList = 'c-' + color;
