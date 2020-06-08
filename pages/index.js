@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { Fragment } from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import Top from '../components/home-page/Top';
 import Online from '../components/home-page/Online';
 import Hello from '../components/home-page/Hello';
@@ -24,6 +25,7 @@ export default function Home() {
                 <Top />
                 <Online />
                 <Hello />
+                <Footer />
                 <ColorPicker />
                 <FontPicker />
             </main>

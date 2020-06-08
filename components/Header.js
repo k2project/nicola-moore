@@ -20,7 +20,9 @@ export default function Header() {
                         </Link>
                     </li>
                     <li>
-                        <a href='#'>Reaching out</a>
+                        <Link href='/#contact'>
+                            <a>Reaching out</a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
