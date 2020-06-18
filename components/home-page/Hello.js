@@ -9,10 +9,7 @@ export default function Hello() {
                 <p className='section-stripline'>
                     <span className='color--theme'>change</span> your life
                 </p>
-                <p>
-                    It’s not always easy and it can feel scary but it starts
-                    with making that first step.
-                </p>
+                <p>It’s not always easy but it starts with this first step.</p>
                 {/* <p>
                     It’s not always easy and it can be scary. There can be a lot
                     of obstacles that make it difficult to take that first step.

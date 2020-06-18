@@ -21,8 +21,7 @@ export default function Online() {
                 <p>
                     Is it time to talk about what’s stopping you enjoying life?
                     Time to learn what’s getting in the way, to understand your
-                    relationships…….to be happy? Time to understand why its all
-                    so hard?
+                    relationships...to be happy.
                 </p>
             </div>
             <div className='section-text bg--secondary-dark'>

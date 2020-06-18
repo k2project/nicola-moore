@@ -17,7 +17,6 @@ export default function Top() {
                     className='top-abs'
                 />
                 <div className='top-abs top-strapline'>
-                    {/* <p className='title'>Are you ok?</p> */}
                     <Input init='Time for change?' />
                     <h2>Could we talk about it?</h2>
                     <p>Counselling &amp; Psychotherapy with Nicola.</p>
