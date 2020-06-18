@@ -4,8 +4,10 @@
 
     h2 {
         font-size: 1.8vw;
-        font-weight: 400;
-        padding-top: 0.3rem;
+        font-size: 3rem;
+        font-weight: 300;
+        // padding-top: 0.3rem;
+        padding-bottom: 0.2rem;
     }
     p {
         font-size: 1.3vw;
@@ -45,6 +47,7 @@
     font-weight: 500;
     color: $COLOR_DARK;
     color: $COLOR_SECONDARY_DARK;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .online .section-img {
     background-image: url('/imgs/girl_w_laptop_2.png');

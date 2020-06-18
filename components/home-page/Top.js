@@ -18,8 +18,8 @@ export default function Top() {
                 />
                 <div className='top-abs top-strapline'>
                     {/* <p className='title'>Are you ok?</p> */}
-                    <Input init='Not fitting in?' />
-                    <h2>Find out how to be YOU and be HAPPY.</h2>
+                    <Input init='Time for change?' />
+                    <h2>Could we talk about it?</h2>
                     <p>Counselling &amp; Psychotherapy with Nicola.</p>
                 </div>
             </div>

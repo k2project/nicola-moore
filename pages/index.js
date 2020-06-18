@@ -20,7 +20,7 @@ export default function Home() {
                 />
             </Head>
 
-            <main>
+            <main className='josefin-sans'>
                 <Header />
                 <Top />
                 <Online />

@@ -152,9 +152,16 @@ main.segoe-ui {
 
 main.josefin-sans {
     font-family: 'Josefin Sans', sans-serif;
-    .section-stripline,
+    .section-stripline {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        letter-spacing: -5px;
+    }
     .home-top input {
         font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        letter-spacing: -1px;
+        font-size: 7.5rem;
     }
     p {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',

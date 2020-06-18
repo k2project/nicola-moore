@@ -10,14 +10,18 @@ export default function Hello() {
                     <span className='color--theme'>change</span> your life
                 </p>
                 <p>
+                    It’s not always easy and it can feel scary but it starts
+                    with making that first step.
+                </p>
+                {/* <p>
                     It’s not always easy and it can be scary. There can be a lot
                     of obstacles that make it difficult to take that first step.
-                </p>
-                <p>
+                </p> */}
+                {/* <p>
                     <strong>
                         But even by making one small step, you make progress!
                     </strong>
-                </p>
+                </p> */}
             </div>
             <div className='section-text bg--theme'>
                 <h2 className='section-title'>
@@ -25,16 +29,17 @@ export default function Hello() {
                 </h2>
                 <p>
                     Thank you for visiting my website. If you are here, you may
-                    have reached a point of needing a help.
+                    have reached a point of needing some help.
                 </p>
 
                 <p>
                     Remember, you are not alone, even though you may feel it at
-                    times. You need and deserve the best support. I have helped
-                    many with a diverse range of life stories. I'm here to
-                    listen with an open mind. My extensive experience in working
-                    with adults of all ages and backgrounds gives me confidence
-                    in delivering effective and sufficient assistance.
+                    times. You need and deserve the best support. I have worked
+                    with people with a diverse range of life stories and I will
+                    listen to you with an open mind. My extensive experience in
+                    working with adults of all ages and backgrounds has shown me
+                    that therapy really can bring about positive change and help
+                    you to direct more effectively the course of your life.
                 </p>
 
                 <p>

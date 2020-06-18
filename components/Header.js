@@ -21,7 +21,7 @@ export default function Header() {
                     </li>
                     <li>
                         <Link href='/#contact'>
-                            <a>Reaching out</a>
+                            <a>Contact me</a>
                         </Link>
                     </li>
                 </ul>
