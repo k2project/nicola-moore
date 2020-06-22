@@ -5,15 +5,8 @@ import Footer from '../components/Footer';
 import Top from '../components/Top';
 import Online from '../components/home-page/Online';
 import Hello from '../components/home-page/Hello';
-import imagesLoaded from 'imagesloaded';
 
 export default function Home() {
-    const [loading, setLoading] = useState(true);
-    useEffect(() => {
-        imagesLoaded('#top', () => {
-            setLoading(false);
-        });
-    });
     return (
         <Fragment>
             <Head>
@@ -29,13 +22,9 @@ export default function Home() {
                         Counselling &amp; Psychotherapy with Nicola.
                     </h2>
                 </Top>
-                {!loading && (
-                    <Fragment>
-                        <Online />
-                        <Hello />
-                        <Footer contact />
-                    </Fragment>
-                )}
+                <Online />
+                <Hello />
+                <Footer contact />
             </main>
         </Fragment>
     );

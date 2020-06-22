@@ -8,7 +8,9 @@
 }
 .hello .section-img {
     background-image: url('/imgs/man_looking_out.png');
+    background-image: url('/imgs/step.png');
+    background-position: left center;
     .cover--white {
-        background: rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.4);
     }
 }
