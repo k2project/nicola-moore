@@ -3,7 +3,7 @@ import Input from './demo/Input';
 
 export default function Top({ children }) {
     return (
-        <section className='top'>
+        <section className='top' id='top'>
             <img src='/imgs/bg_home_2.2.png' alt='' className='top-rel' />
             <div>
                 <img

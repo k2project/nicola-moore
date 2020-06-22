@@ -1,17 +1,23 @@
 import Head from 'next/head';
-import { Fragment } from 'react';
+import { Fragment, useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Top from '../components/Top';
 import Online from '../components/home-page/Online';
 import Hello from '../components/home-page/Hello';
+import imagesLoaded from 'imagesloaded';
 
 export default function Home() {
+    const [loading, setLoading] = useState(true);
+    useEffect(() => {
+        imagesLoaded('#top', () => {
+            setLoading(false);
+        });
+    });
     return (
         <Fragment>
             <Head>
                 <title>Nicola Moore | Counselling and Psychotherapy</title>
-                {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
 
             <main>
@@ -23,9 +29,13 @@ export default function Home() {
                         Counselling &amp; Psychotherapy with Nicola.
                     </h2>
                 </Top>
-                <Online />
-                <Hello />
-                <Footer contact />
+                {!loading && (
+                    <Fragment>
+                        <Online />
+                        <Hello />
+                        <Footer contact />
+                    </Fragment>
+                )}
             </main>
         </Fragment>
     );
