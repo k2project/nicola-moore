@@ -5,10 +5,14 @@ export default function Header() {
     return (
         <header>
             <h1>
-                nicola<span className='color--theme'>moore</span>
+                <Link href='/'>
+                    <a>
+                        nicola<span className='color--theme'>moore</span>
+                    </a>
+                </Link>
             </h1>
             <nav>
-                <ul>
+                <ul aria-label='website main navigation'>
                     <li>
                         <Link href='/about'>
                             <a>Get to know me</a>

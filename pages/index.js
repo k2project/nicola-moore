@@ -2,11 +2,9 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Top from '../components/home-page/Top';
+import Top from '../components/Top';
 import Online from '../components/home-page/Online';
 import Hello from '../components/home-page/Hello';
-import ColorPicker from '../components/demo/ColorPicker';
-import FontPicker from '../components/demo/FontPicker';
 
 export default function Home() {
     return (
@@ -14,20 +12,20 @@ export default function Home() {
             <Head>
                 <title>Nicola Moore | Counselling and Psychotherapy</title>
                 {/* <link rel="icon" href="/favicon.ico" /> */}
-                <link
-                    href='https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;600&family=Josefin+Sans:wght@100;200;400;600&family=Merriweather+Sans:wght@300;400&display=swap'
-                    rel='stylesheet'
-                />
             </Head>
 
-            <main className='josefin-sans'>
+            <main>
                 <Header />
-                <Top />
+                <Top>
+                    <div className='top-title'>time for change</div>
+                    <div className='top-subtitle'>Could we talk about it?</div>
+                    <h2 className='top-desc'>
+                        Counselling &amp; Psychotherapy with Nicola.
+                    </h2>
+                </Top>
                 <Online />
                 <Hello />
-                <Footer />
-                <ColorPicker />
-                <FontPicker />
+                <Footer contact />
             </main>
         </Fragment>
     );

@@ -1,9 +1,9 @@
-import React from 'react';
-import Input from '../demo/Input';
+import React, { Children } from 'react';
+import Input from './demo/Input';
 
-export default function Top() {
+export default function Top({ children }) {
     return (
-        <section className='home-top'>
+        <section className='top'>
             <img src='/imgs/bg_home_2.2.png' alt='' className='top-rel' />
             <div>
                 <img
@@ -16,11 +16,7 @@ export default function Top() {
                     alt=''
                     className='top-abs'
                 />
-                <div className='top-abs top-strapline'>
-                    <Input init='Time for change?' />
-                    <h2>Could we talk about it?</h2>
-                    <p>Counselling &amp; Psychotherapy with Nicola.</p>
-                </div>
+                <div className='top-abs top-strapline'>{children}</div>
             </div>
             <img src='/imgs/bg_home_4.2.png' alt='' className='top-rel' />
         </section>
