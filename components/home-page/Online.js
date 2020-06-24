@@ -6,7 +6,7 @@ export default function Online() {
             <div className='section-img'>
                 <div className='cover cover--white'></div>
                 <div className='section-stripline'>
-                    time to <span className='color--theme'>connect</span>
+                    time to <span className='color--theme'>connect...</span>
                     <p>
                         Time to learn what’s getting in the way... to understand
                         your relationships... to enjoy life.
@@ -15,8 +15,8 @@ export default function Online() {
             </div>
             <div className='section-text bg--secondary-dark' id='online'>
                 <h2 className='section-title'>
-                    Benefit from therapy
-                    <b className='color--theme'> wherever you are...</b>
+                    BENEFIT FROM THERAPY
+                    <b className='color--theme'> WHEREVER YOU ARE...</b>
                 </h2>
 
                 <p>

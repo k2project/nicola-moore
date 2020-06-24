@@ -7,7 +7,7 @@ export default function Hello() {
             <div className='section-img'>
                 <div className='cover cover--white'></div>
                 <div className='section-stripline'>
-                    <span className='color--theme'>change</span> your life
+                    <span className='color--theme'>change</span> your life!
                     <p>
                         It’s not always easy but it starts with this first step.
                     </p>
@@ -24,7 +24,7 @@ export default function Hello() {
             </div>
             <div className='section-text bg--theme'>
                 <h2 className='section-title'>
-                    <b className='color--white'>Hello!</b> I'm Nicola.
+                    <b className='color--white'>HELLO!</b> I'M NICOLA.
                 </h2>
                 <p>
                     Thank you for visiting my website. If you are here, you may

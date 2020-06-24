@@ -16,7 +16,7 @@ export default function Therapy() {
                 <Top>
                     {/* step forward */}
                     <div className='top-title'>psychotherapy</div>
-                    <div className='top-subtitle'>A STEP FORWARD</div>
+                    <div className='top-subtitle'>A step forward.</div>
                     {/* <div className='top-subtitle'>Working together</div> */}
                     <h2 className='top-desc'>
                         Counselling &amp; Psychotherapy with Nicola.

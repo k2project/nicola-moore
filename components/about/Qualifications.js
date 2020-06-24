@@ -7,7 +7,7 @@ export default function Qualifications() {
                     <div className='section-stripline'>
                         <span className='color--theme'>Nicola </span>Moore
                         <p>
-                            Qualified and Registered Psychotherapist.
+                            Qualified and Registered Psychotherapist. <br />
                             Experienced in working with adults of all
                             backgrounds.
                         </p>
