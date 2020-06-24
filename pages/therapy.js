@@ -14,8 +14,10 @@ export default function Therapy() {
             <main>
                 <Header />
                 <Top>
-                    <div className='top-title'>step forward</div>
-                    <div className='top-subtitle'>Working together</div>
+                    {/* step forward */}
+                    <div className='top-title'>psychotherapy</div>
+                    <div className='top-subtitle'>A STEP FORWARD</div>
+                    {/* <div className='top-subtitle'>Working together</div> */}
                     <h2 className='top-desc'>
                         Counselling &amp; Psychotherapy with Nicola.
                     </h2>
