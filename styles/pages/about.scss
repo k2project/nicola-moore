@@ -7,3 +7,13 @@
         background: rgba(255, 255, 255, 0.1);
     }
 }
+.professional-bodies {
+    padding: 3rem 0;
+    li {
+        display: inline-block;
+        img {
+            height: 6rem;
+            margin-right: 3rem;
+        }
+    }
+}

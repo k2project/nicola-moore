@@ -65,7 +65,33 @@ export default function About() {
                             personally and within the commercial world.
                         </p>
 
-                        <p>
+                        <ul
+                            aria-labelledby='membership'
+                            className='professional-bodies'
+                        >
+                            <li>
+                                <img
+                                    src='/imgs/ukcplogo.png'
+                                    alt='UK Council
+                                for Psychotherapy member'
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src='/imgs/fpc.png'
+                                    alt='FPC (the graduate body of WPF) member'
+                                />
+                            </li>
+                            <li>
+                                <img
+                                    src='/imgs/bpclogo.png'
+                                    alt='British Psychoanalytic
+                                Council member'
+                                />
+                            </li>
+                        </ul>
+
+                        <p id='membership'>
                             <strong>
                                 I am a registered member of the UKCP (UK Council
                                 for Psychotherapy), BPC (British Psychoanalytic
@@ -77,7 +103,7 @@ export default function About() {
                 </section>
                 <section className='section-text'>
                     <h2 className='section-title'>
-                        HOW &amp; WHAT CAN I HELP WITH?
+                        HOW AND WHAT CAN I HELP WITH?
                     </h2>
 
                     <p>
@@ -111,6 +137,7 @@ export default function About() {
                         adults of all race, colour, religion, sexuality and
                         gender orientation.
                     </p>
+
                     <p>
                         <strong>
                             Together we can explore the issues that might inform
