@@ -13,7 +13,7 @@ export default function Online() {
                     </p>
                 </div>
             </div>
-            <div className='section-text bg--secondary-dark'>
+            <div className='section-text bg--secondary-dark' id='online'>
                 <h2 className='section-title'>
                     Benefit from therapy
                     <b className='color--theme'> wherever you are...</b>

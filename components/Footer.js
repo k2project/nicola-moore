@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import Link from 'next/link';
 
 export default function Footer({ contact }) {
     return (
@@ -53,6 +54,43 @@ export default function Footer({ contact }) {
                 </section>
             )}
             <footer>
+                <ul aria-label='navigation'>
+                    <li>
+                        <Link href='/'>
+                            <a>Home</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/#online'>
+                            <a>Online Service</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/about'>
+                            <a>Therapist</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/therapy'>
+                            <a>Therapy</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/therapy#fees'>
+                            <a>Fees</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/therapy#faq'>
+                            <a>FAQ</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/#contact'>
+                            <a>Contact</a>
+                        </Link>
+                    </li>
+                </ul>
                 Nicola Moore Counselling &amp; Psychotherapy &copy;
                 {new Date().getFullYear()}
             </footer>

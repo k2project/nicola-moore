@@ -53,14 +53,19 @@ p {
     opacity: 0.7;
 }
 .btn--theme {
-    background-color: $COLOR_THEME;
-    border-color: $COLOR_THEME;
-    color: #fff;
-}
-.btn--theme:hover {
-    background-color: transparent;
     color: $COLOR_THEME_DARKER;
     border-color: $COLOR_THEME_DARKER;
+}
+.btn--theme:hover {
+    background-color: $COLOR_THEME_DARKER;
+    border-color: $COLOR_THEME_DARKER;
+    color: #fff;
+}
+a.btn--theme {
+    color: $COLOR_THEME_DARKER;
+}
+a.btn--theme:hover {
+    color: #fff;
 }
 .bg--theme {
     background-color: $COLOR_THEME;
@@ -68,6 +73,9 @@ p {
 .bg--secondary-dark {
     background-color: $COLOR_SECONDARY_DARK;
     color: #e1e1e1;
+}
+.bg--white {
+    background-color: #f1f1f1;
 }
 .color--theme {
     color: $COLOR_THEME_DARKER;
@@ -91,11 +99,12 @@ p {
     align-content: center;
     min-height: 80vh;
     padding: 15rem 5rem 8rem;
-    padding-left: 45%;
-    padding-right: 15%;
+    padding-right: 45%;
+    padding-left: 15%;
     text-align: left;
     background-color: #fff;
     background-position: left;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: auto 100%;
 
@@ -114,8 +123,9 @@ p {
         font-weight: 200;
     }
     p {
-        margin-top: 2rem;
-        font-size: 1.6rem;
+        margin-top: 1.5rem;
+        line-height: 1.3;
+        font-size: 2rem;
         left: 0.5rem;
         width: 90%;
         letter-spacing: normal;
@@ -127,8 +137,9 @@ p {
     display: grid;
     align-content: center;
     strong {
-        font-size: 2.2rem;
-        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 1.4;
+        font-weight: 500;
     }
 }
 .section-title {
