@@ -6,8 +6,11 @@
     summary {
         font-size: 1.8rem;
         padding: 1.4rem 0;
-        display: grid;
-        grid-template-columns: 1fr auto;
+        display: flex;
+        b {
+            font-weight: 300;
+            flex-grow: 1;
+        }
     }
     details summary::-webkit-details-marker {
         display: none;
