@@ -13,7 +13,7 @@ export default function FAQ() {
                     <li key={'faq_' + i}>
                         <details>
                             <summary onClick={toggleOpening}>
-                                <b>{faq.q}</b>
+                                {faq.q}
                                 <div className='plus'>
                                     <span></span>
                                     <span></span>
