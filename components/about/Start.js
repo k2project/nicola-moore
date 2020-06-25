@@ -12,7 +12,7 @@ export default function Start() {
                 made contact (please use the contact form below), I ususally
                 suggest we have a brief phone call to ascertain if I can offer
                 you the right support and if so, we meet to have an{' '}
-                <Link href='/therapy#initial_consultation'>
+                <Link href='/therapy#fees'>
                     <a>initial consultation.</a>
                 </Link>{' '}
                 If speaking with me then doesn’t feel right for you, I do not

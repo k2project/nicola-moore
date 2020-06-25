@@ -3,6 +3,7 @@
     z-index: -1;
     background-image: url('/imgs/nicola_moore.png');
     background-position: right center;
+    min-height: 90vh;
     .cover--white {
         background: rgba(255, 255, 255, 0.1);
     }
@@ -22,7 +23,7 @@
     width: 80rem;
     margin: auto;
     li {
-        border: solid 0.1rem #f0f0f2;
+        border: solid 0.1rem $COLOR_LIGHT;
         border-radius: 0.5rem;
         display: inline-block;
         height: 18rem;

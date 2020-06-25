@@ -81,8 +81,8 @@ export default function Footer({ contact }) {
                         </Link>
                     </li>
                     <li>
-                        <Link href='/therapy#faq'>
-                            <a>FAQ</a>
+                        <Link href='/therapy#faqs'>
+                            <a>FAQs</a>
                         </Link>
                     </li>
                     <li>

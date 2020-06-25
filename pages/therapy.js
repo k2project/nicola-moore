@@ -3,6 +3,9 @@ import { Fragment } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Top from '../components/Top';
+import FAQ from '../components/therapy/FAQ';
+import Fees from '../components/therapy/Fees';
+import Counselling from '../components/therapy/Counselling';
 
 export default function Therapy() {
     return (
@@ -22,6 +25,9 @@ export default function Therapy() {
                         Counselling &amp; Psychotherapy with Nicola.
                     </h2>
                 </Top>
+                <Counselling />
+                <FAQ />
+                <Fees />
                 <Footer />
             </main>
         </Fragment>

@@ -1,0 +1,40 @@
+.faqs {
+    li {
+        border-bottom: solid 0.1rem darken($COLOR_LIGHT, 10%);
+        padding: 1.5rem 0;
+    }
+    summary {
+        font-size: 1.8rem;
+        padding: 1.4rem 0;
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+    details summary::-webkit-details-marker {
+        display: none;
+    }
+    .plus {
+        width: 1.8rem;
+        height: 1.8rem;
+        display: inline-block;
+        margin-right: 2rem;
+        cursor: pointer;
+        span {
+            display: inline-block;
+            width: 1.8rem;
+            height: 0.2rem;
+            background-color: $COLOR_DARK;
+            position: absolute;
+            top: 50%;
+        }
+        span:nth-child(2) {
+            transform: rotate(90deg);
+            transition: 0.25s;
+        }
+    }
+    .plus.open {
+        span:nth-child(2) {
+            transform: rotate(0deg);
+            transition: 0.25s;
+        }
+    }
+}
