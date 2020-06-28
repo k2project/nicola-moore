@@ -14,15 +14,13 @@ export default function Qualifications() {
                     </div>
                 </div>
                 <div className='section-text bg--theme bg--secondary-dark'>
-                    <h2 className='section-title'>
-                        WHO AM I AND CAN I HELP YOU?
-                    </h2>
+                    <h2 className='section-title'>WHO AM I?</h2>
                     <p>
                         I am a fully qualified Psychotherapist and hold a
                         Postgraduate Diploma in Psychodynamic Theory and
                         Practice from WPF, a highly regarded training
-                        institution here in London that combines academic study
-                        of theory alongside clinical experience.
+                        institution in London that combines academic study of
+                        theory alongside clinical experience.
                     </p>
 
                     <p>
@@ -36,14 +34,15 @@ export default function Qualifications() {
                         I believe in the importance of continuing my
                         professional development and regularly attend workshops
                         and seminars to develop skills based on the practice of
-                        both classic psychoanalytic theories and more
-                        contemporary variations practices.
+                        classic psychoanalytic theories, contemporary
+                        psychological practices now being developed from fields
+                        such as neuroscience and psychology.
                     </p>
                     <p>
                         Before working in this field I had a career in creative
-                        businesses and I am particularly interested in how a
-                        creative sensibility affects us both personally and
-                        within the commercial world.
+                        businesses and I am particularly interested in how to
+                        work effectively with creative talent within the
+                        commercial world.
                     </p>
 
                     <ul
