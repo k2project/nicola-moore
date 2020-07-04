@@ -5,11 +5,11 @@ export default function Footer({ contact }) {
     return (
         <Fragment>
             {contact && (
-                <section className='contact' id='contact'>
+                <section className='contact bg--secondary-light' id='contact'>
                     <div>
                         <h2 className='section-title'>Request a session.</h2>
                         <p>
-                            Please send me a message via provided form and I
+                            Please send me a message via the provided form and I
                             will get back to you as soon as I can.
                         </p>
                         <ul>

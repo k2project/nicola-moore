@@ -7,42 +7,39 @@ export default function Expertise() {
 
             <p>
                 My training leads me to work largely but by no means
-                exclusively, in a model called Psychodynmic psychotherapy. A key
-                emphasis is on the My I work largely, but by no means
                 exclusively, in a model called Psychodynamic psychotherapy. A
                 key emphasis is on the exploration of early parts of your life,
                 key carers and their role and significance to you. We will use
-                these past influences and also unconscious motives that might
-                impact on your present life. Thinking together about important
-                events in your life – traumatic or otherwise - can help you
-                recognise how patterns might have evolved, shaping your
-                behaviour and emotions that cause problems in relationships and
-                your emotional wellbeing.
+                these past influences to develop ideas on how they, and also
+                unconscious motives, might impact on your present life. Thinking
+                together about important events in your life – traumatic or
+                otherwise - can help you recognise how patterns might have
+                evolved, shaping your behaviour and emotions that might have
+                caused problems in relationships and your emotional wellbeing.
             </p>
             <p>
-                We can also think about the here-and-now and your daily
-                experience of life. We can discuss what being you feels like,
-                how you work, play and love and what your relationships with
-                people are like.
+                I respect that you will talk about deeply personal issues –
+                indeed this might be the first time you have ever spoken of them
+                – and there will be painful events and difficult emotion to
+                recount and relive. Our aim will be to explore their meaning
+                together and therefore help you understand yourself differently
+                and to relieve the symptoms that trouble and inhibit you.
+            </p>
+            <p>
+                We can also think about your daily experience of life - the
+                here-and-now. You can tell me what being you feels like, how you
+                work, play and love and what your relationships with people are
+                like.
             </p>
             <p>
                 It can feel a bit odd talking to a stranger about such intimate
-                matters but it is also this unique angle that becomes a very
-                particular relationship and provides real opportunity for the
-                shift within you; it is very different to any friendships you
-                may have. A key part of therapy is the development of this
-                therapeutic alliance and good therapy comes from having a
-                conversation with someone like me who can see your life through
-                a different lens.
-            </p>
-            <p>
-                I respect that you might need to talk about issues that are
-                deeply personal – indeed this might be the first time they are
-                ever spoken of them – and there will be painful events and
-                difficult emotion to recount and relive. Our aim will be to
-                explore their meaning and therefore help you understand yourself
-                differently and to relieve the symptoms that trouble and inhibit
-                you.
+                matters but it is also this unique angle that becomes the very
+                particular relationship where real opportunity for a shift
+                within you happens; it is very different from any friendships
+                you may have. A key part of therapy is the development of this
+                therapeutic alliance and beneficial therapeutic change can come
+                about from having a conversation with someone who can see your
+                life through a different lens - someone like me.
             </p>
             <p>
                 I approach you and your world with an open mind and without
@@ -103,20 +100,20 @@ export default function Expertise() {
                 </li>
             </ul>
             <p>
-                Amongst the many different issues I have experience in are:
+                Amongst the many different issues, I have experience in are:
                 anxiety, depressed mood, anger, trauma, relationship
                 dissatisfaction, attachment issues, grief, body dysmorphia,
                 issues with sexuality and gender, low self-esteem and
-                self-identity. I am also an experienced forensic psychotherapist
-                and therefore can help if you have past convictions and or have
-                served time.
+                self-identity. I am also, an experienced forensic
+                psychotherapist and therefore can help if you have past
+                convictions and/or have served time.
             </p>
             <p>
                 <strong>
                     Together we can explore the issues that might inform us,
                     help us make links within your life and thus move towards a
-                    different view which gives you options that you never felt
-                    you had; this is the change you are seeking.
+                    different view, giving you options that you never felt you
+                    had; this is the change you are seeking.
                 </strong>
             </p>
             <div className='btn-box'>

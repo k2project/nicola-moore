@@ -7,11 +7,11 @@ export default function Start() {
 
             <p>
                 It’s very common to want to ‘shop around’ and meet more than one
-                therapist – talking with me has to feel that there is potential
+                therapist: talking with me has to feel that there is potential
                 to develop this special therapeutic relationship. Once you have
-                made contact, I ususally suggest we have a brief phone call to
-                ascertain if I can offer you the right support and if so, we
-                meet to have an{' '}
+                made contact using the contact form below, I usually suggest we
+                have a brief phone call to ascertain if I can offer you the
+                right support and if so, we meet to have an 
                 <Link href='/therapy#fees'>
                     <a>initial consultation.</a>
                 </Link>{' '}

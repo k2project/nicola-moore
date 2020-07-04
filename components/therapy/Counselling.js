@@ -25,7 +25,7 @@ export default function Counselling() {
             </p>
             <p>
                 ‘Having counselling’, ‘being in therapy’ are phrases we often
-                hear but what’s it actually mean – what’s it like? Perhaps you
+                hear but what’s it actually means – what’s it like? Perhaps you
                 know someone who is seeing a therapist but they can’t really
                 explain what happens they just know it seems to help. Therapy is
                 a complex interaction between 2 people and can’t easily be
@@ -53,7 +53,7 @@ export default function Counselling() {
                 The length of therapy is possibly a better way to look at the
                 question. You might come to 
                 <q>
-                    <b>Time- Limited</b>
+                    <b>Time-Limited</b>
                 </q>
                 <b> counselling</b>
                  via a private health provider as they will generally fund
@@ -74,17 +74,17 @@ export default function Counselling() {
             <p>
                 <b>Longer term, Open-Ended psychotherapy</b>  is better suited
                 to deep-rooted issues that hamper your experience of joy and
-                pleasure, make relationships difficult and effect your ability
+                pleasure, make relationships difficult and affect your ability
                 to direct the course of your life. Perhaps you have had a
                 traumatic event(s) that needs processing; maybe you have thought
                 you are ‘fine’ but find you are now not. Or have you suffered
                 abuse – emotional, physical, sexual – which has profoundly
-                effected you and but now needs to be addressed. This we would do
+                affected you and but now needs to be addressed. This we would do
                 together with great care and respect, always vigilant for the
-                effects it still has on you. In the therapeutic alliance there
-                is comfort to be found and we make space where you are truly
-                listened to and your emotions engaged with, however difficult,
-                so that the healing can happen.
+                effects it still has on you. In the therapeutic alliance, there
+                is a comfort to be found and we make space where you are truly
+                listened to and your emotions engaged with, however difficult so
+                that the healing can happen.
             </p>
 
             <div className='btn-box'>

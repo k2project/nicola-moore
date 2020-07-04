@@ -8,8 +8,6 @@ export default function Qualifications() {
                         <span className='color--theme'>Nicola </span>Moore
                         <p>
                             Qualified and Registered Psychotherapist. <br />
-                            Experienced in working with adults of all
-                            backgrounds.
                         </p>
                     </div>
                 </div>
@@ -17,31 +15,32 @@ export default function Qualifications() {
                     <h2 className='section-title'>WHO AM I?</h2>
                     <p>
                         I am a fully qualified Psychotherapist and hold a
-                        Postgraduate Diploma in Psychodynamic Theory and
-                        Practice from WPF, a highly regarded training
-                        institution in London that combines academic study of
-                        theory alongside clinical experience.
+                        Postgraduate Diploma in Psychodynamic Psychotherapy
+                        Theory &amp; Practice from WPF, a highly regarded
+                        training institution in London that combines the
+                        academic study of theory with clinical experience. The
+                        course is ratified by Roehampton University.
                     </p>
 
                     <p>
                         Aside from my private practice, I have worked within the
-                        NHS and not-for-profit charities where I have seen a
-                        diverse group of service users. In addition I have
-                        extensive experience as a forensic psychotherapist
-                        working with clients in a secure setting.
+                        NHS and charities seeing a diverse group of service
+                        users. In addition, I have extensive experience as a
+                        forensic psychotherapist with clients in a secure
+                        setting.
                     </p>
                     <p>
                         I believe in the importance of continuing my
                         professional development and regularly attend workshops
-                        and seminars to develop skills based on the practice of
-                        classic psychoanalytic theories, contemporary
-                        psychological practices now being developed from fields
-                        such as neuroscience and psychology.
+                        and seminars to develop skills and explore thinking
+                        using a wide range of theories, from classic
+                        psychoanalysis to techniques developing from psychology
+                        and neuroscience.
                     </p>
                     <p>
-                        Before working in this field I had a career in creative
-                        businesses and I am particularly interested in how to
-                        work effectively with creative talent within the
+                        Before becoming a psychotherapist I had a career in
+                        creative business and I am particularly interested in
+                        how creative talent works effectively within the
                         commercial world.
                     </p>
 

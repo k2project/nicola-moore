@@ -18,14 +18,6 @@ export default function About() {
 
             <main>
                 <Header />
-                <Top>
-                    {/* /the conncection */}
-                    <div className='top-title'>the therapist</div>
-                    <div className='top-subtitle'>It's nice meeting you!</div>
-                    <h2 className='top-desc'>
-                        Counselling &amp; Psychotherapy with Nicola.
-                    </h2>
-                </Top>
                 <Qualifications />
                 <Expertise />
                 <Start />
