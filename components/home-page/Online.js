@@ -6,7 +6,7 @@ export default function Online() {
             <div className='section-img'>
                 <div className='cover cover--white'></div>
                 <div className='section-stripline'>
-                    time to <span className='color--theme'>connect...</span>
+                    Time to <span className='color--theme'>connect...</span>
                     <p>
                         Time to learn what’s getting in the way... to understand
                         your relationships... to enjoy life.

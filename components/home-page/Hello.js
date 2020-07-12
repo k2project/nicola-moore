@@ -7,7 +7,7 @@ export default function Hello() {
             <div className='section-img'>
                 <div className='cover cover--white'></div>
                 <div className='section-stripline'>
-                    <span className='color--theme'>change</span> your life!
+                    <span className='color--theme'>Change</span> your life!
                     <p>
                         It’s not always easy but it starts with this first step.
                     </p>

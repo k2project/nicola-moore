@@ -2,6 +2,29 @@ import React, { Fragment } from 'react';
 import Link from 'next/link';
 
 export default function Footer({ contact }) {
+    const sendEmail = async (e) => {
+        e.preventDefault();
+        let name = 'test';
+        let email = 'test@test.com';
+        await fetch('/api/mail', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                name,
+                email,
+            }),
+        })
+            .then((res) => res.json())
+            .then((json) => {
+                if (json.success) {
+                    console.log('json', json);
+                } else {
+                    console.log(json.error);
+                }
+            });
+    };
     return (
         <Fragment>
             {contact && (
@@ -33,9 +56,9 @@ export default function Footer({ contact }) {
                     </div>
                     <div>
                         <form>
-                            <label for='name'>Name*</label>
+                            <label htmlFor='name'>Name*</label>
                             <input type='text' id='name' autoComplete='off' />
-                            <label for='contact'>Email/Mobile*</label>
+                            <label htmlFor='contact'>Email/Mobile*</label>
                             <input
                                 type='text'
                                 id='contact'

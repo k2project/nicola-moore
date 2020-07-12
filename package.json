@@ -10,7 +10,9 @@
     },
     "dependencies": {
         "next": "9.4.4",
+        "nodemailer": "^6.4.10",
         "react": "16.13.1",
+        "react-autosize-textarea": "^7.0.0",
         "react-dom": "16.13.1",
         "sass": "^1.26.7"
     }
