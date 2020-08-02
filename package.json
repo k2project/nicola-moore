@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "next": "9.4.4",
-        "nodemailer": "^6.4.10",
+        "nodejs-nodemailer-outlook": "^1.2.3",
         "react": "16.13.1",
         "react-autosize-textarea": "^7.0.0",
         "react-dom": "16.13.1",
