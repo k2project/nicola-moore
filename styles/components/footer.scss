@@ -26,7 +26,7 @@ footer {
         font-size: 1.4rem;
         padding-left: 2rem;
         text-align: center;
-        top: 3rem;
+        top: 3.2rem;
     }
 
     input,
@@ -40,18 +40,30 @@ footer {
         padding: 1.6rem;
         margin-top: 2rem;
     }
+    .btn:disabled,
+    .btn[disabled] {
+        border: 1px solid #dfdfdf;
+        background-color: #efefef;
+        color: #777;
+        cursor: no-drop;
+    }
     input {
         color: $COLOR_DARK;
         border: solid 0.1rem $COLOR_DARK;
         border-radius: 3rem;
-        padding: 1.4rem 2rem;
+        padding: 1.5rem 2rem;
         text-align: center;
         display: block;
         font-size: 1.4rem;
         text-align: left;
     }
+
     input:focus {
-        background-color: #f1f3f0;
+        background-color: #f5f5f6;
+        border-color: $COLOR_THEME_DARKER;
+    }
+    input.filled {
+        background-color: #f5f5f6;
     }
     ul {
         padding-top: 1rem;
@@ -63,6 +75,25 @@ footer {
     a img {
         height: 3.2rem;
         opacity: 0.8;
+    }
+    .honeyTrap {
+        width: 1px;
+        height: 1px;
+        position: absolute;
+        z-index: -1;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        left: -9999999px;
+        top: 0;
+    }
+    .error {
+        color: crimson;
+        margin: 1rem 0;
+        text-align: left;
+        position: absolute;
+        top: 100%;
+        font-size: 1.2rem;
     }
 }
 .contact-drawing {

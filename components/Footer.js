@@ -1,12 +1,36 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import Link from 'next/link';
 
 export default function Footer({ contact }) {
+    const [trap, setTrap] = useState(null);
+    const [name, setName] = useState('');
+    const [details, setDetails] = useState('');
+
+    const [error, setError] = useState(null);
+
+    const validateEmail = (str) => details.includes('@');
+
+    const mobRegex = /^[+]?(\d+([- ])?)*$/;
+    const validateMobile = (str) => mobRegex.test(str);
+
     const sendEmail = async (e) => {
         e.preventDefault();
+
+        if (trap) return;
+
+        if (!name) return setError('* Name is required.');
+        if (!details) return setError('* Email or mobile is required.');
+
+        if (!validateEmail(details) && !validateMobile(details))
+            return setError(
+                'Please provide either a valid email address or a mobile in digital format with optional country code eg. +44 . Alternatively, send me an email at ... . '
+            );
+
+        const isEmail = details.includes('@');
+
         try {
             let name = 'Kris';
-            let email = 'kris.kopczkrzy@rabbies.com';
+            let contact = 'kris.kopczkrzy@rabbies.com';
             await fetch('/api/mail', {
                 method: 'POST',
                 headers: {
@@ -14,7 +38,8 @@ export default function Footer({ contact }) {
                 },
                 body: JSON.stringify({
                     name,
-                    email,
+                    email: isEmail ? details : null,
+                    mobile: isEmail ? null : details,
                 }),
             });
             console.log('email sent');
@@ -54,16 +79,45 @@ export default function Footer({ contact }) {
                     <div>
                         <form onSubmit={sendEmail}>
                             <label htmlFor='name'>Name*</label>
-                            <input type='text' id='name' autoComplete='off' />
-                            <label htmlFor='contact'>Email/Mobile*</label>
                             <input
                                 type='text'
-                                id='contact'
+                                id='name'
                                 autoComplete='off'
+                                className={name ? 'filled' : ''}
+                                onChange={(e) => {
+                                    setName(e.target.value);
+                                    setError(null);
+                                }}
                             />
-                            <button type='submit' className='btn btn--theme'>
+                            <label htmlFor='details'>Email/Mobile*</label>
+                            <input
+                                type='text'
+                                id='details'
+                                autoComplete='off'
+                                className={details ? 'filled' : ''}
+                                onChange={(e) => {
+                                    setDetails(e.target.value);
+                                    setError(null);
+                                }}
+                            />
+
+                            <input
+                                type='email'
+                                id='honeyTrap'
+                                className='honeyTrap'
+                                aria-hidden='true'
+                                tabIndex='-1'
+                                onChange={(e) => setTrap(e.target.value)}
+                            />
+                            <button
+                                type='submit'
+                                className='btn btn--theme'
+                                disabled={error}
+                            >
                                 Send
                             </button>
+
+                            {error && <p className='error'>{error}</p>}
                         </form>
                     </div>
                     <img
