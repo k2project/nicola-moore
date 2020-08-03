@@ -48,9 +48,9 @@ export default function Footer({ contact }) {
         }
     };
     return (
-        <Fragment>
+        <div className='bg--secondary-light txt-center'>
             {contact && (
-                <section className='contact bg--secondary-light' id='contact'>
+                <section className='contact' id='contact'>
                     <div>
                         <h2 className='section-title'>Request a session.</h2>
                         <p>
@@ -168,6 +168,6 @@ export default function Footer({ contact }) {
                 Nicola Moore Counselling &amp; Psychotherapy &copy;
                 {new Date().getFullYear()}
             </footer>
-        </Fragment>
+        </div>
     );
 }

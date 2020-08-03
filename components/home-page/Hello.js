@@ -7,20 +7,13 @@ export default function Hello() {
             <div className='section-img'>
                 <div className='cover cover--white'></div>
                 <div className='section-stripline'>
-                    <span className='color--theme'>Change</span> your life!
+                    <span className='color--theme'>Change</span>{' '}
+                    <span className='nonbreakable'>your life!</span>
                     <p>
-                        It’s not always easy but it starts with this first step.
+                        It’s not always easy but it starts with this very first
+                        step.
                     </p>
                 </div>
-                {/* <p>
-                    It’s not always easy and it can be scary. There can be a lot
-                    of obstacles that make it difficult to take that first step.
-                </p> */}
-                {/* <p>
-                    <strong>
-                        But even by making one small step, you make progress!
-                    </strong>
-                </p> */}
             </div>
             <div className='section-text bg--theme'>
                 <h2 className='section-title'>

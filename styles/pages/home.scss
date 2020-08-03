@@ -7,11 +7,21 @@
     padding: 0 2rem 2rem;
 }
 .hello .section-img {
-    background-image: url('/imgs/man_looking_out.png');
     background-image: url('/imgs/step_flipped.png');
-    background-position: left center;
     background-position: right center;
     .cover--white {
         background: rgba(255, 255, 255, 0.4);
+    }
+}
+@include tablet {
+    .hello .section-img {
+        .cover--white {
+            background: rgba(255, 255, 255, 0.6);
+        }
+    }
+}
+@include mobile {
+    .hello .section-img {
+        background-position: 70% center;
     }
 }

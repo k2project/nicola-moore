@@ -48,3 +48,11 @@
         font-weight: bold;
     }
 }
+
+@include tablet {
+    .nicola .section-img {
+        .cover--white {
+            background: rgba(220, 220, 225, 0.4);
+        }
+    }
+}
