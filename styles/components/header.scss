@@ -30,3 +30,36 @@ header {
         border-bottom: solid 0.1rem #111;
     }
 }
+
+@include tablet {
+    header {
+        padding: 3.5rem 5% 3rem;
+        li {
+            padding: 0 1rem;
+        }
+    }
+}
+
+@include mobile {
+    header {
+        display: block;
+        padding: 0;
+        text-align: center;
+        h1 {
+            background-color: #2a2a36;
+            color: #fff;
+            padding: 2.5rem 5%;
+        }
+        h1 a:hover {
+            border-bottom: none;
+        }
+        nav {
+            text-align: center;
+            padding: 0;
+        }
+        nav ul {
+            padding: 2.7rem 5%;
+            width: 100%;
+        }
+    }
+}

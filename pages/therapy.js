@@ -17,11 +17,13 @@ export default function Therapy() {
             <main>
                 <Header />
                 <Top>
-                    <div className='top-title'>the therapy</div>
-                    <div className='top-subtitle'>A step forward.</div>
+                    <div className='top-title'>
+                        A <span>step</span> forward
+                    </div>
                     <h2 className='top-desc'>
-                        Counselling &amp; Psychotherapy with Nicola.
+                        Counselling &amp; Psychotherapy with Nicola
                     </h2>
+                    {/* <div className='top-subtitle'>A step forward.</div> */}
                 </Top>
                 <Counselling />
                 <FAQ />

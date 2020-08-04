@@ -17,7 +17,8 @@ export default function Hello() {
             </div>
             <div className='section-text bg--theme'>
                 <h2 className='section-title'>
-                    <b className='color--white'>HELLO!</b> I'M NICOLA.
+                    <b className='color--white'>HELLO!</b>
+                    <span className='nonbreakable'> I'M NICOLA.</span>
                 </h2>
                 <p>
                     Thank you for visiting my website. If you are here, you may

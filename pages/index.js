@@ -16,11 +16,13 @@ export default function Home() {
             <main>
                 <Header />
                 <Top>
-                    <div className='top-title'>time for change</div>
-                    <div className='top-subtitle'>Could we talk about it?</div>
+                    <div className='top-title'>
+                        time for <span>change</span>
+                    </div>
                     <h2 className='top-desc'>
-                        Counselling &amp; Psychotherapy with Nicola.
+                        Counselling &amp; Psychotherapy with Nicola
                     </h2>
+                    {/* <div className='top-subtitle'>Could we talk about it?</div> */}
                 </Top>
                 <Online />
                 <Hello />

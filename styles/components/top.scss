@@ -29,19 +29,25 @@
 }
 
 .top-title {
-    font-size: 9.5rem;
     font-size: 7.6rem;
     font-weight: 400;
     letter-spacing: -0.1rem;
     text-transform: uppercase;
+    line-height: 1;
+    margin-top: 0.7rem;
+    span {
+        color: #fff;
+    }
 }
 .top-subtitle {
-    font-size: 2.7rem;
-    font-size: 3.8rem;
+    display: none;
+    font-size: 3.5rem;
     font-weight: 200;
-    // text-transform: uppercase;
-    margin-bottom: 0.2rem;
     margin-top: -0.5rem;
 }
 .top-desc {
+    // font-weight: bold;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-top: 0.7rem;
 }
