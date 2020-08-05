@@ -2,17 +2,19 @@
     background-color: $COLOR_THEME;
     padding: 6rem 0;
     min-height: 80vh;
-    display: grid;
-    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     img {
         opacity: 0.9;
     }
 }
 .top-rel,
 .top-abs {
-    width: 100vw;
+    width: 130rem;
     position: absolute;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     top: 0;
 }
 .top-rel {
@@ -20,12 +22,8 @@
 }
 
 .top-strapline {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    justify-content: center;
-    top: -1rem;
+    text-align: center;
+    z-index: 3;
 }
 
 .top-title {
@@ -34,20 +32,77 @@
     letter-spacing: -0.1rem;
     text-transform: uppercase;
     line-height: 1;
-    margin-top: 0.7rem;
+    margin-top: 1rem;
+    padding: 0 2rem;
+    width: 100%;
     span {
         color: #fff;
     }
 }
-.top-subtitle {
-    display: none;
-    font-size: 3.5rem;
-    font-weight: 200;
-    margin-top: -0.5rem;
-}
+// .top-subtitle {
+//     display: none;
+//     font-size: 3.5rem;
+//     font-weight: 200;
+//     margin-top: -0.5rem;
+// }
 .top-desc {
     // font-weight: bold;
     font-size: 2.2rem;
     font-weight: 500;
     margin-top: 0.7rem;
+}
+img.tablet,
+img.mobile {
+    display: none;
+}
+@media only screen and (max-width: 1300px) {
+    .top-rel,
+    .top-abs {
+        width: 105%;
+    }
+    .top-strapline {
+        width: 100vw;
+    }
+}
+@include tablet {
+    .top {
+    }
+    img.side {
+        opacity: 0;
+    }
+}
+@include mobile {
+    .top {
+        min-height: 10rem;
+    }
+
+    .top-strapline {
+        width: 100vw;
+        position: relative;
+        padding: 4rem 1rem;
+    }
+    .top-title {
+        margin: auto;
+        max-width: 9ch;
+        font-size: 7rem;
+    }
+    .top-desc {
+        font-size: 1.8rem;
+    }
+    img.desktop {
+        display: none;
+    }
+    img.tablet {
+        width: 45rem;
+        margin: auto;
+        display: block;
+    }
+}
+@include mobile-sm {
+    img.tablet {
+        width: 34rem;
+    }
+    .top-title {
+        font-size: 6rem;
+    }
 }

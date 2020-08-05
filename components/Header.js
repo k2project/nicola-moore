@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function Header() {
@@ -29,6 +29,14 @@ export default function Header() {
             </h1>
             <nav>
                 <ul aria-label='website main navigation'>
+                    {/* {isMob && (
+                        <li>
+                            <Link href='/'>
+                                <a>Home</a>
+                            </Link>
+                        </li>
+                    )} */}
+
                     <li>
                         {!isMob && (
                             <Link href='/about'>

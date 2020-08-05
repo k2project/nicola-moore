@@ -142,6 +142,9 @@ footer {
     .contact {
         width: 100%;
     }
+    .contact-drawing {
+        height: 8.5rem;
+    }
 }
 @include mobile-sm {
     footer {
@@ -158,5 +161,9 @@ footer {
     .contact {
         padding-right: 10%;
         padding-left: 10%;
+    }
+    .contact-drawing {
+        height: 7rem;
+        margin-top: 5rem;
     }
 }

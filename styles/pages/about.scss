@@ -1,5 +1,5 @@
 .nicola .section-img {
-    margin-top: -1rem;
+    margin-top: -0.1rem;
     z-index: -1;
     background-image: url('/imgs/nicola_moore.png');
     background-position: right center;
@@ -51,8 +51,54 @@
 
 @include tablet {
     .nicola .section-img {
+        background-position: 20% center;
         .cover--white {
             background: rgba(220, 220, 225, 0.4);
+        }
+    }
+    .expertise {
+        width: 100%;
+        li {
+            width: 30%;
+            vertical-align: bottom;
+        }
+    }
+}
+@include mobile {
+    .nicola .section-img {
+        padding-top: 30%;
+        background-position: 60% center;
+        span {
+            display: block;
+        }
+    }
+    .expertise {
+        li {
+            margin: 1%;
+            width: 48%;
+        }
+    }
+}
+@include mobile-sm {
+    .nicola .section-img {
+        height: 100vh;
+        padding-top: 60%;
+        background-position: 65% center;
+    }
+    .expertise {
+        li {
+            margin: 0.3rem 0;
+            width: 100%;
+        }
+    }
+    .professional-bodies {
+        display: flex;
+        justify-content: space-around;
+        li {
+            img {
+                height: 5rem;
+                margin-right: 0.5rem;
+            }
         }
     }
 }
