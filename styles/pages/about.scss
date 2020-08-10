@@ -53,7 +53,7 @@
     .nicola .section-img {
         background-position: 20% center;
         .cover--white {
-            background: rgba(220, 220, 225, 0.4);
+            background: rgba(220, 220, 225, 0.3);
         }
     }
     .expertise {
@@ -66,7 +66,7 @@
 }
 @include mobile {
     .nicola .section-img {
-        padding-top: 30%;
+        padding-top: 35%;
         background-position: 60% center;
         span {
             display: block;
@@ -82,7 +82,7 @@
 @include mobile-sm {
     .nicola .section-img {
         height: 100vh;
-        padding-top: 60%;
+        padding-top: 90%;
         background-position: 65% center;
     }
     .expertise {
