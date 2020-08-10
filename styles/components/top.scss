@@ -11,7 +11,8 @@
 }
 .top-rel,
 .top-abs {
-    width: 130rem;
+    min-width: 130rem;
+    width: 90%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -58,6 +59,7 @@ img.mobile {
 @media only screen and (max-width: 1300px) {
     .top-rel,
     .top-abs {
+        min-width: 100%;
         width: 105%;
     }
     .top-strapline {
@@ -104,5 +106,10 @@ img.mobile {
     }
     .top-title {
         font-size: 6rem;
+    }
+    .top-desc {
+        width: 25ch;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

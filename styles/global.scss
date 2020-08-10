@@ -166,9 +166,6 @@ blockquote {
 }
 
 @include tablet {
-    body {
-        border: solid 1px green;
-    }
     .cover--white {
         background-color: rgba(255, 255, 255, 0.7);
     }
@@ -177,9 +174,6 @@ blockquote {
     }
 }
 @include mobile {
-    body {
-        border: solid 1px orange;
-    }
     .section-text,
     .section-img {
         padding-left: 10%;
@@ -193,9 +187,6 @@ blockquote {
     }
 }
 @include mobile-sm {
-    body {
-        border: solid 1px red;
-    }
     .btn {
         width: 100%;
     }

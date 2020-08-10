@@ -10,6 +10,7 @@
         display: flex;
         flex-direction: column;
         line-height: 1.5;
+        cursor: pointer;
     }
     details summary::-webkit-details-marker {
         display: none;
@@ -41,6 +42,4 @@
             transition: 0.25s;
         }
     }
-}
-@include mobile {
 }
