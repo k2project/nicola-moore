@@ -90,9 +90,9 @@ export default function Counselling() {
                 <Link href='/about'>
                     <a className='btn btn--theme'>Read about me</a>
                 </Link>
-                <Link href='/#online'>
+                {/* <Link href='/#online'>
                     <a className='btn btn--theme'>Online sessions</a>
-                </Link>
+                </Link> */}
             </div>
         </section>
     );

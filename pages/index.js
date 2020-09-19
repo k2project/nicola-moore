@@ -20,7 +20,7 @@ export default function Home() {
                         time for <span>change</span>
                     </div>
                     <h2 className='top-desc'>
-                        Counselling &amp; Psychotherapy with Nicola
+                        Counselling &amp; Psychotherapy with Nicola Moore
                     </h2>
                     {/* <div className='top-subtitle'>Could we talk about it?</div> */}
                 </Top>

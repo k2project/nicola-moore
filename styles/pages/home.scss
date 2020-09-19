@@ -10,7 +10,30 @@
     background-image: url('/imgs/step_flipped.png');
     background-position: right center;
     .cover--white {
-        background: rgba(255, 255, 255, 0.4);
+        background: rgba(255, 255, 255, 0.1);
+    }
+}
+.hello .cover--white {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.nicola_img {
+    position: absolute;
+    right: -5%;
+    top: 0;
+    height: 100%;
+    opacity: 0.9;
+}
+.nicola_img_mob {
+    display: none;
+}
+.hello_row {
+    display: flex;
+    width: 60%;
+}
+@include desktop-sm {
+    .nicola_img {
+        right: -10%;
     }
 }
 @include tablet {
@@ -18,6 +41,32 @@
         .cover--white {
             background: rgba(255, 255, 255, 0.6);
         }
+    }
+    .nicola_img {
+        right: -17%;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .hello .cover--white {
+        display: none;
+    }
+    .hello_row {
+        width: 100%;
+    }
+    .nicola_img {
+        display: none;
+    }
+    .nicola_img_mob {
+        display: block;
+        position: absolute;
+        width: 22rem;
+        border-radius: 50%;
+        top: -8rem;
+        left: 49%;
+        transform: translateX(-50%);
+    }
+    .hello .section-text {
+        padding-top: 18rem;
     }
 }
 @include mobile {
