@@ -104,12 +104,12 @@ footer {
     opacity: 0.3;
 }
 .message {
+    overflow: hidden;
     min-width: 30rem;
     max-width: 98vw;
     position: fixed;
-    opacity: 0;
-    top: -5rem;
-    right: 1vw;
+    right: -100vw;
+    top: 1rem;
     background: $COLOR_THEME_DARKER;
     color: #fff;
     font-size: 1.4rem;
@@ -134,8 +134,7 @@ footer {
 }
 @keyframes slideInMessage {
     to {
-        opacity: 1;
-        top: 1vh;
+        right: 1vw;
     }
 }
 .message.error {
