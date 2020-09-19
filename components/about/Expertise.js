@@ -6,40 +6,42 @@ export default function Expertise() {
             <h2 className='section-title'>HOW AND WHAT CAN I HELP WITH?</h2>
 
             <p>
-                My training leads me to work largely but by no means
+                My training leads me to work largely, but by no means
                 exclusively, in a model called Psychodynamic psychotherapy. A
                 key emphasis is on the exploration of early parts of your life,
-                key carers and their role and significance to you. We will use
-                these past influences to develop ideas on how they, and also
-                unconscious motives, might impact on your present life. Thinking
-                together about important events in your life – traumatic or
-                otherwise - can help you recognise how patterns might have
-                evolved, shaping your behaviour and emotions that might have
-                caused problems in relationships and your emotional wellbeing.
+                key carers and their role and significance to you. We will look
+                at these past influences to develop ideas on how they, along
+                with unconscious motives, might impact on your present life.
+                Thinking together about important events in your life –
+                traumatic or otherwise - can help you recognise how patterns
+                might have evolved. We can discover, what shaped your behaviour
+                and emotions and what might be causing the problems in your
+                relationships and your emotional wellbeing.
             </p>
+
             <p>
-                I respect that you will talk about deeply personal issues –
-                indeed this might be the first time you have ever spoken of them
-                – and there will be painful events and difficult emotion to
-                recount and relive. Our aim will be to explore their meaning
+                I respect that you will need to talk about deeply personal
+                issues – indeed this might be the first time you have ever
+                spoken of them. There will be painful events and difficult
+                emotion to recount and relive. We will explore their meaning
                 together and therefore help you understand yourself differently
                 and to relieve the symptoms that trouble and inhibit you.
             </p>
             <p>
                 We can also think about your daily experience of life - the
-                here-and-now. You can tell me what being you feels like, how you
-                work, play and love and what your relationships with people are
-                like.
+                here-and-now. You can tell me what being YOU feels like, how you
+                work, play and love and how you experience your relationships.
             </p>
             <p>
                 It can feel a bit odd talking to a stranger about such intimate
                 matters but it is also this unique angle that becomes the very
-                particular relationship where real opportunity for a shift
-                within you happens; it is very different from any friendships
-                you may have. A key part of therapy is the development of this
-                therapeutic alliance and beneficial therapeutic change can come
-                about from having a conversation with someone who can see your
-                life through a different lens - someone like me.
+                particular relationship that is therapy, where real opportunity
+                for a shift within you happen. It is very different from any
+                friendships you may have. A key part of therapy is the
+                development of this therapeutic alliance and beneficial
+                therapeutic change can come about from having a conversation
+                with someone who can see your life through a different lens -
+                someone like me.
             </p>
             <p>
                 I approach you and your world with an open mind and without

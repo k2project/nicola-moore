@@ -5,12 +5,10 @@ export default function Qualifications() {
                 <div className='section-img'>
                     <div className='cover cover--white'></div>
                     <div className='section-stripline'>
-                        <span className='color--theme'>Nicola </span>Moore
-                        <p>
-                            Qualified and Registered <br /> Psychotherapist from
-                            London
-                            <br />
-                        </p>
+                        {/* <span className='color--theme'>Nicola </span>Moore */}
+                        Qualified
+                        <br /> <b>Psychotherapist</b>
+                        <br /> in London
                     </div>
                 </div>
                 <div className='section-text bg--theme bg--secondary-dark'>
