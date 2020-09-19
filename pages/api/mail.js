@@ -55,13 +55,13 @@ export default (req, res) => {
                 user: process.env.MAIL_USER,
                 pass: process.env.MAIL_PASSWORD,
             },
-            from: process.env.MAIL_USER,
+            from: `"Via website" ${process.env.MAIL_USER}`,
             to: process.env.MAIL_USER,
             subject: `A new session request from ${req.body.name}.`,
             html,
             replyTo: req.body.email,
         });
-        return 'sent';
+        res.status(200).json({ status: 'success' });
     } catch (error) {
         return res.status(error.status || 500).end(error.message);
     }

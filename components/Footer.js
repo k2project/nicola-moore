@@ -42,13 +42,16 @@ export default function Footer({ contact }) {
                 }),
             });
 
+            setName('');
+            setDetails('');
+
             setMessage({
                 text: 'Message sent successfully.',
                 status: 'success',
             });
             setTimeout(() => {
                 setMessage(null);
-            }, 50000);
+            }, 5000);
         } catch (error) {
             setMessage({
                 text:
@@ -99,6 +102,7 @@ export default function Footer({ contact }) {
                                     setName(e.target.value);
                                     setError(null);
                                 }}
+                                value={name}
                             />
                             <label htmlFor='details'>Email/Mobile*</label>
                             <input
@@ -110,6 +114,7 @@ export default function Footer({ contact }) {
                                     setDetails(e.target.value);
                                     setError(null);
                                 }}
+                                value={details}
                             />
 
                             <input

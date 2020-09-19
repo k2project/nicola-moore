@@ -104,11 +104,12 @@ footer {
     opacity: 0.3;
 }
 .message {
-    width: 98vw;
+    min-width: 30rem;
+    max-width: 98vw;
     position: fixed;
     opacity: 0;
     top: -5rem;
-    left: 1vw;
+    right: 1vw;
     background: $COLOR_THEME_DARKER;
     color: #fff;
     font-size: 1.4rem;
