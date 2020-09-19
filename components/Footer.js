@@ -7,11 +7,7 @@ export default function Footer({ contact }) {
     const [details, setDetails] = useState('');
 
     const [error, setError] = useState(null);
-    const [message, setMessage] = useState({
-        text:
-            'Message sent successfully.Please provide either a valid email address or a mobile in digital format with optional country code eg. +44 ',
-        status: 'success',
-    });
+    const [message, setMessage] = useState(null);
 
     const validateEmail = (str) => details.includes('@');
 
