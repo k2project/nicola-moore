@@ -103,6 +103,43 @@ footer {
     grid-column: span 2;
     opacity: 0.3;
 }
+.message {
+    width: 98vw;
+    position: fixed;
+    opacity: 0;
+    top: -5rem;
+    left: 1vw;
+    background: $COLOR_THEME_DARKER;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.8);
+    z-index: 99;
+    display: flex;
+    p {
+        padding: 2rem 5%;
+        flex-grow: 1;
+        text-align: left;
+    }
+    .close {
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 0 2rem;
+        font-size: 2rem;
+        font-size: 3rem;
+        color: #fff;
+    }
+    animation: slideInMessage 0.75s forwards;
+}
+@keyframes slideInMessage {
+    to {
+        opacity: 1;
+        top: 1vh;
+    }
+}
+.message.error {
+    background-color: crimson;
+}
 @include desktop-sm {
     .contact {
         width: 100%;

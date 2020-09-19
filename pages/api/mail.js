@@ -3,13 +3,23 @@ var nodeoutlook = require('nodejs-nodemailer-outlook');
 export default (req, res) => {
     const contactDetails = req.body.email
         ? ` 
-        <p style="font-size:25px;font-weight:200;"><b style="font-weight:600;">${req.body.name}</b> has requested a session with you using your website's contact form. Please send them an email. 
+        <p style="font-size:25px;font-weight:200;"><b style="font-weight:600;">${
+            req.body.name || 'A client'
+        }</b> has requested a session with you using your website's contact form. Please send them an email (${
+              req.body.email && req.body.email
+          }). 
         </p>
-        <p style="font-size:12px;font-weight:200;margin:20px 0 50px;"> You can replay to this message directly by using 'Replay' button or send them an email to <i>${req.body.email}</i>. 
+        <p style="font-size:12px;font-weight:200;margin:20px 0 50px;"> You can replay to this message directly by using 'Replay' button or send them an email to <i>${
+            req.body.email && req.body.email
+        }</i>. 
         </p>
     `
         : `
-        <p style="font-size:25px;font-weight:200;margin-bottom:50px;"><b style="font-weight:600;">${req.body.name}</b> has requested a session with you using your website's contact form. Please call them on <b style="font-weight:600;white-space:nowrap;">${req.body.mobile}</b>. 
+        <p style="font-size:25px;font-weight:200;margin-bottom:50px;"><b style="font-weight:600;">${
+            req.body.name || 'A client'
+        }</b> has requested a session with you using your website's contact form. Please call them on <b style="font-weight:600;white-space:nowrap;">${
+              req.body.mobile && req.body.mobile
+          }</b>. 
         </p>
     `;
     const html = `<div style="background:#f7f7f7;padding:80px 40px 40px; text-align:center;">
@@ -45,12 +55,13 @@ export default (req, res) => {
                 user: process.env.MAIL_USER,
                 pass: process.env.MAIL_PASSWORD,
             },
-            from: req.body.email,
+            from: process.env.MAIL_USER,
             to: process.env.MAIL_USER,
             subject: `A new session request from ${req.body.name}.`,
             html,
             replyTo: req.body.email,
         });
+        return 'sent';
     } catch (error) {
         return res.status(error.status || 500).end(error.message);
     }

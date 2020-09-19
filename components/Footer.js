@@ -7,6 +7,7 @@ export default function Footer({ contact }) {
     const [details, setDetails] = useState('');
 
     const [error, setError] = useState(null);
+    const [message, setMessage] = useState(null);
 
     const validateEmail = (str) => details.includes('@');
 
@@ -23,15 +24,13 @@ export default function Footer({ contact }) {
 
         if (!validateEmail(details) && !validateMobile(details))
             return setError(
-                'Please provide either a valid email address or a mobile in digital format with optional country code eg. +44 . Alternatively, send me an email at ... . '
+                'Please provide either a valid email address or a mobile in digital format with optional country code eg. +44 . Alternatively, send me an email at njmoore63@outlook.com . '
             );
 
         const isEmail = details.includes('@');
 
         try {
-            let name = 'Kris';
-            let contact = 'kris.kopczkrzy@rabbies.com';
-            await fetch('/api/mail', {
+            const response = await fetch('/api/mail', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -42,8 +41,20 @@ export default function Footer({ contact }) {
                     mobile: isEmail ? null : details,
                 }),
             });
-            console.log('email sent');
+
+            setMessage({
+                text: 'Message sent successfully.',
+                status: 'success',
+            });
+            setTimeout(() => {
+                setMessage(null);
+            }, 50000);
         } catch (error) {
+            setMessage({
+                text:
+                    'We are sorry but we were unable to send your message. Please contact Nicola directly on njmoore63@outlook.com.',
+                status: 'error',
+            });
             console.log(error);
         }
     };
@@ -126,6 +137,14 @@ export default function Footer({ contact }) {
                         className='contact-drawing'
                     />
                 </section>
+            )}
+            {message && (
+                <div className={`message ${message.status && message.status}`}>
+                    <p>{message.text && message.text}</p>
+                    <button onClick={() => setMessage(null)} className='close'>
+                        &times;
+                    </button>
+                </div>
             )}
             <footer>
                 <ul aria-label='navigation'>
