@@ -59,8 +59,8 @@ export default function Home() {
                 <Online />
                 <Hello />
                 <ContactForm />
-                <Footer />
             </main>
+            <Footer />
         </Fragment>
     );
 }

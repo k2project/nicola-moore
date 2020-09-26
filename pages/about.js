@@ -51,8 +51,8 @@ export default function About() {
                 <Qualifications />
                 <Expertise />
                 <Start />
-                <Footer />
             </main>
+            <Footer />
         </Fragment>
     );
 }

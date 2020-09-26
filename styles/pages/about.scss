@@ -8,10 +8,11 @@
         background: rgba(220, 220, 225, 0.1);
     }
 }
-.nicola .section-stripline {
+.nicola .section-stripline h2 {
     font-size: 5rem;
     line-height: 1;
     padding-top: 2rem;
+    font-weight: 200;
 }
 .professional-bodies {
     padding: 3rem 0;
@@ -106,7 +107,7 @@
             }
         }
     }
-    .nicola .section-stripline {
+    .nicola .section-stripline h2 {
         line-height: 0.8;
         b {
             font-size: 3.5rem;

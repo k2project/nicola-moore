@@ -5,17 +5,18 @@ export default function Qualifications() {
                 <div className='section-img'>
                     <div className='cover cover--white'></div>
                     <div className='section-stripline'>
-                        {/* <span className='color--theme'>Nicola </span>Moore */}
-                        Qualified
-                        <br /> <b>Psychotherapist</b>
-                        <br /> in London
+                        <h2>
+                            Qualified
+                            <br /> <b>Psychotherapist</b>
+                            <br /> in London
+                        </h2>
                     </div>
                 </div>
                 <div
                     className='section-text bg--theme bg--secondary-dark'
                     id='main'
                 >
-                    <h2 className='section-title'>WHO AM I?</h2>
+                    <h3 className='section-title'>WHO AM I?</h3>
                     <p>
                         I am a fully qualified Psychotherapist and hold a
                         Postgraduate Diploma in Psychodynamic Psychotherapy
@@ -48,7 +49,7 @@ export default function Qualifications() {
                     </p>
 
                     <ul
-                        aria-labelledby='membership'
+                        aria-labelledby='professional membership'
                         className='professional-bodies'
                     >
                         <li>

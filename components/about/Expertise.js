@@ -50,7 +50,7 @@ export default function Expertise() {
                 sexuality and gender orientation.
             </p>
 
-            <ul className='expertise' aria-level='experienced in'>
+            <ul className='expertise' aria-label="Nicola's Expertise">
                 <li>
                     <img src='/imgs/couple_fighting.png' alt='' />
                     <p>

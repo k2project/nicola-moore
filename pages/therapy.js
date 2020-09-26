@@ -60,8 +60,8 @@ export default function Therapy() {
                 <Counselling />
                 <FAQ />
                 <Fees />
-                <Footer />
             </main>
+            <Footer />
         </Fragment>
     );
 }
