@@ -8,11 +8,14 @@ export default function FAQ() {
     return (
         <section className='section-text bg--secondary-light faqs' id='faqs'>
             <h2 className='section-title'>FAQs</h2>
-            <ul aria-label='frequently asked questions'>
+            <ul aria-label='Frequently asked questions'>
                 {faqs.map((faq, i) => (
                     <li key={'faq_' + i}>
                         <details>
-                            <summary onClick={toggleOpening}>
+                            <summary
+                                onClick={toggleOpening}
+                                onMouseDown={(e) => e.preventDefault()}
+                            >
                                 {faq.q}
                                 <div className='plus'>
                                     <span></span>

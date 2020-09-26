@@ -65,7 +65,8 @@ p {
     font-size: 1.4rem;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
     text-decoration: none;
     background: #fff;
     border-color: #fff;

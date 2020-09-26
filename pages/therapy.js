@@ -54,7 +54,6 @@ export default function Therapy() {
                 <h2 className='top-desc'>
                     Counselling &amp; psychotherapy with Nicola Moore
                 </h2>
-                {/* <div className='top-subtitle'>A step forward.</div> */}
             </Top>
             <main id='main'>
                 <Counselling />
