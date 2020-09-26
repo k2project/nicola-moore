@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { Fragment } from 'react';
+import SkipToMainContentLink from '../components/SkipToMainContentLink';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Top from '../components/Top';
@@ -44,17 +45,18 @@ export default function Therapy() {
                 />
             </Head>
 
-            <main>
-                <Header />
-                <Top>
-                    <div className='top-title'>
-                        A <span>step</span> forward
-                    </div>
-                    <h2 className='top-desc'>
-                        Counselling &amp; psychotherapy with Nicola Moore
-                    </h2>
-                    {/* <div className='top-subtitle'>A step forward.</div> */}
-                </Top>
+            <SkipToMainContentLink />
+            <Header />
+            <Top>
+                <div className='top-title'>
+                    A <span>step</span> forward
+                </div>
+                <h2 className='top-desc'>
+                    Counselling &amp; psychotherapy with Nicola Moore
+                </h2>
+                {/* <div className='top-subtitle'>A step forward.</div> */}
+            </Top>
+            <main id='main'>
                 <Counselling />
                 <FAQ />
                 <Fees />

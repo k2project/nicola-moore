@@ -11,7 +11,10 @@ export default function Qualifications() {
                         <br /> in London
                     </div>
                 </div>
-                <div className='section-text bg--theme bg--secondary-dark'>
+                <div
+                    className='section-text bg--theme bg--secondary-dark'
+                    id='main'
+                >
                     <h2 className='section-title'>WHO AM I?</h2>
                     <p>
                         I am a fully qualified Psychotherapist and hold a

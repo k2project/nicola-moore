@@ -15,6 +15,27 @@ body {
     position: absolute;
     width: 1px;
 }
+.sr-only--in-focus {
+    position: static;
+    clip: auto !important;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: auto;
+    line-height: normal;
+    width: auto;
+    padding: 3rem 5rem;
+    left: 0;
+    right: 0;
+    background: #f0bbd1;
+    color: #000 !important;
+    font-size: 1.6rem;
+    z-index: 1000;
+    display: block;
+}
+.sr-only--in-focus:hover {
+    text-decoration-line: underline;
+}
 .txt-center {
     text-align: center;
 }
@@ -22,15 +43,6 @@ body {
     white-space: nowrap;
 }
 
-button:focus {
-}
-a:link,
-a:visited a:active {
-}
-a:hover {
-}
-a:focus {
-}
 p {
     font-size: 1.4rem;
     margin-bottom: 1rem;
@@ -64,15 +76,14 @@ p {
     color: $COLOR_THEME_DARKER;
     border-color: $COLOR_THEME_DARKER;
 }
-.btn--theme:hover {
-    background-color: $COLOR_THEME_DARKER;
-    border-color: $COLOR_THEME_DARKER;
-    color: #fff;
-}
+
 a.btn--theme {
     color: $COLOR_THEME_DARKER;
 }
+a.btn--theme:focus,
 a.btn--theme:hover {
+    background-color: $COLOR_THEME_DARKER;
+    border-color: $COLOR_THEME_DARKER;
     color: #fff;
 }
 .bg--theme {

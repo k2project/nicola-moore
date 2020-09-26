@@ -29,14 +29,6 @@ export default function Header() {
             </h1>
             <nav>
                 <ul aria-label='website main navigation'>
-                    {/* {isMob && (
-                        <li>
-                            <Link href='/'>
-                                <a>Home</a>
-                            </Link>
-                        </li>
-                    )} */}
-
                     <li>
                         {!isMob && (
                             <Link href='/about'>

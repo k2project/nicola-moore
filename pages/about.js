@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Top from '../components/Top';
+import SkipToMainContentLink from '../components/SkipToMainContentLink';
 import Qualifications from '../components/about/Qualifications';
 import Expertise from '../components/about/Expertise';
 import Start from '../components/about/Start';
@@ -45,9 +45,9 @@ export default function About() {
                     content='http://www.nicolamooretherapy.co.uk/nicola_moore_small.png'
                 />
             </Head>
-
+            <SkipToMainContentLink />
+            <Header />
             <main>
-                <Header />
                 <Qualifications />
                 <Expertise />
                 <Start />

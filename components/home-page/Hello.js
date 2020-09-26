@@ -4,17 +4,6 @@ import Link from 'next/link';
 export default function Hello() {
     return (
         <section className='hello'>
-            {/* <div className='section-img'>
-               
-                <div className='section-stripline'>
-                    <span className='color--theme'>Change</span>{' '}
-                    <span className='nonbreakable'>your life!</span>
-                    <p>
-                        It’s not always easy but it starts with this very first
-                        step.
-                    </p>
-                </div>
-            </div> */}
             <div className='section-text'>
                 <img
                     src='/imgs/nicola_moore_small.png'

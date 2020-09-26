@@ -1,10 +1,12 @@
 import Head from 'next/head';
 import { Fragment } from 'react';
+import SkipToMainContentLink from '../components/SkipToMainContentLink';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Top from '../components/Top';
 import Online from '../components/home-page/Online';
 import Hello from '../components/home-page/Hello';
+import ContactForm from '../components/home-page/ContactForm';
 
 export default function Home() {
     return (
@@ -43,9 +45,9 @@ export default function Home() {
                     content='http://www.nicolamooretherapy.co.uk/nicola_moore_small.png'
                 />
             </Head>
-
-            <main>
-                <Header />
+            <SkipToMainContentLink />
+            <Header />
+            <main id='main'>
                 <Top>
                     <div className='top-title'>
                         time for <span>change</span>
@@ -56,7 +58,8 @@ export default function Home() {
                 </Top>
                 <Online />
                 <Hello />
-                <Footer contact />
+                <ContactForm />
+                <Footer />
             </main>
         </Fragment>
     );
