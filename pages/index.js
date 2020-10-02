@@ -16,7 +16,7 @@ export default function Home() {
 
                 <meta
                     name='description'
-                    content='A qualified and experienced psychotherapist can offer a safe place for you to explore your feelings and work through difficult issues. With now available online therapy you can meet without the restrictions of place and time to get the help you need.'
+                    content='A qualified and experienced psychotherapist offering a safe place for you to explore your feelings and work through difficult issues. With now available online therapy you can meet without the restrictions of place and time to get the help you need.'
                 />
                 <meta
                     name='keywords'
@@ -38,7 +38,7 @@ export default function Home() {
                 <meta property='og:type' content='website' />
                 <meta
                     property='og:description'
-                    content='A qualified and experienced psychotherapist can offer a safe place for you to explore your feelings and work through difficult issues. With now available online therapy you can meet without the restrictions of place and time to get the help you need.'
+                    content='A qualified and experienced psychotherapist offering a safe place for you to explore your feelings and work through difficult issues. With now available online therapy you can meet without the restrictions of place and time to get the help you need.'
                 />
                 <meta
                     property='og:image'

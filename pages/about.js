@@ -16,7 +16,7 @@ export default function About() {
                 </title>
                 <meta
                     name='description'
-                    content='I am a fully qualified Psychotherapist (registered with UKCP and FPC). I help with anxiety, depressed mood, anger, trauma, relationship dissatisfaction, attachment issues, grief, body dysmorphia, issues with sexuality and gender, low self-esteem and self-identity, and more. I have worked within the NHS and charities seeing a diverse group of service users. I also have extensive experience as a forensic psychotherapist with clients in a secure setting.'
+                    content='I am a fully qualified Psychotherapist (registered with UKCP and FPC). I help with anxiety, depressed mood, anger, trauma, relationship dissatisfaction, attachment issues, grief, body dysmorphia, issues with sexuality and gender, low self-esteem and self-identity, and more. I have worked within the NHS and charities seeing a diverse group of service users.'
                 />
                 <meta
                     name='keywords'
@@ -38,7 +38,7 @@ export default function About() {
                 <meta property='og:type' content='website' />
                 <meta
                     property='og:description'
-                    content='I am a fully qualified Psychotherapist (registered with UKCP and FPC). I help with anxiety, depressed mood, anger, trauma, relationship dissatisfaction, attachment issues, grief, body dysmorphia, issues with sexuality and gender, low self-esteem and self-identity, and more. I have worked within the NHS and charities seeing a diverse group of service users. I also have extensive experience as a forensic psychotherapist with clients in a secure setting.'
+                    content='I am a fully qualified Psychotherapist (registered with UKCP and FPC). I help with anxiety, depressed mood, anger, trauma, relationship dissatisfaction, attachment issues, grief, body dysmorphia, issues with sexuality and gender, low self-esteem and self-identity, and more. I have worked within the NHS and charities seeing a diverse group of service users.'
                 />
                 <meta
                     property='og:image'
