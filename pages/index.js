@@ -44,6 +44,21 @@ export default function Home() {
                     property='og:image'
                     content='http://www.nicolamooretherapy.co.uk/nicola_moore_small.png'
                 />
+                <script
+                    async
+                    src='https://www.googletagmanager.com/gtag/js?id=[Tracking ID]'
+                />
+
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '[Tracking ID]');
+        `,
+                    }}
+                />
             </Head>
             <SkipToMainContentLink />
             <Header />
