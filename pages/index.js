@@ -48,7 +48,10 @@ export default function Home() {
                     async
                     src='https://www.googletagmanager.com/gtag/js?id=[Tracking ID]'
                 />
-
+                <script
+                    async
+                    src='https://www.googletagmanager.com/gtag/js?id=UA-180574978-1'
+                ></script>
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
