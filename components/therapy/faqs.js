@@ -106,13 +106,16 @@ export const faqs = [
             ' I’m not in crisis now but I’m interested in what therapy can do for me.',
         a: (
             <p>
-                Psychotherapy isn’t just for those times of crisis although it
-                of course when it can be a real help. But at other times we want
+                Psychotherapy isn’t just for those times of crisis although,
+                of course, this is when it can be of real help. But at other times we want
                 to learn about ourselves to get more out of life, to live, love
                 and play with more intensity, satisfaction and joy. Socrates
                 said something of this:{' '}
                 <blockquote>
-                    An unexamined life is not worth living. <br />
+                    An unexamined life is not worth living.
+                </blockquote>
+                and
+                <blockquote>
                     Not life, but good life, is to be chiefly valued.
                 </blockquote>
             </p>

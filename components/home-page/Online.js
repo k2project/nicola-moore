@@ -23,7 +23,7 @@ export default function Online() {
                     We are all experiencing a different world right now, much of
                     it worrying and confusing. In a time when we are told to
                     keep our distance in order to stay safe, we find we need to
-                    connect more than we ever realised. But are learning new
+                    connect more than ever. We are learning new
                     ways to be together and the same goes for getting the right
                     support in a time of need.
                 </p>

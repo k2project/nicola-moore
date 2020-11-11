@@ -6,7 +6,8 @@ export default function Qualifications() {
                     <div className='cover cover--white'></div>
                     <div className='section-stripline'>
                         <h2>
-                            Qualified
+                            A
+                            fully qualified
                             <br /> <b>Psychotherapist</b>
                             <br /> in London
                         </h2>
@@ -42,8 +43,8 @@ export default function Qualifications() {
                         and neuroscience.
                     </p>
                     <p>
-                        Before becoming a psychotherapist I had a career in
-                        creative business and I am particularly interested in
+                        Before becoming a psychotherapist I had a career in the arts and 
+                        creative businesses, so I am particularly interested in
                         how creative talent works effectively within the
                         commercial world.
                     </p>
