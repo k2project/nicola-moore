@@ -21,7 +21,7 @@ export default function Top({ children }) {
                     className='top-abs desktop side'
                 />
                 <img src='/imgs/tablet_top.png' alt='' className='tablet' />
-                <div className='top-abs top-strapline desktop'>{children}</div>
+       
                 <img src='/imgs/tablet_btm.png' alt='' className='tablet' />
             </div>
             <img
@@ -29,6 +29,7 @@ export default function Top({ children }) {
                 alt=''
                 className='top-rel desktop'
             />
+            <div className='content top-strapline desktop'>{children}</div>
         </section>
     );
 }
