@@ -10,7 +10,7 @@ import Hello from '../components/home-page/Hello';
 import ContactForm from '../components/home-page/ContactForm';
 
 export default function Home() {
-   
+    
     return (
         <Fragment>
             <Head>

@@ -7,6 +7,7 @@ export default function Top({ children }) {
                 src='/imgs/bg_home_2.2.png'
                 alt=''
                 className='top-rel desktop'
+                id="imgTop1"
             />
             <div>
                 <img
