@@ -17,20 +17,28 @@ export default function Top({ children }) {
                     src='/imgs/bg_home_3.2_right.png'
                     alt=''
                     className='top-rel desktop side'
+                    width='200'
+                height='50'
                 />
                 <img
                     src='/imgs/bg_home_3.2_left.png'
                     alt=''
                     className='top-abs desktop side'
+                    width='200'
+                height='50'
                 />
-                <img src='/imgs/tablet_top.png' alt='' className='tablet' />
+                <img src='/imgs/tablet_top.png' alt='' className='tablet' width='200'
+                height='50'/>
                 <div className='top-abs top-strapline desktop'>{children}</div>
-                <img src='/imgs/tablet_btm.png' alt='' className='tablet' />
+                <img src='/imgs/tablet_btm.png' alt='' className='tablet'width='200'
+                height='50' />
             </div>
             <img
                 src='/imgs/bg_home_4.2.png'
                 alt=''
                 className='top-rel desktop'
+                width='200'
+                height='50'
             />
         </section>
     );
