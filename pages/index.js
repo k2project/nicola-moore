@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import { Fragment } from 'react';
+import { Fragment} from 'react';
 import SkipToMainContentLink from '../components/SkipToMainContentLink';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -10,6 +10,7 @@ import Hello from '../components/home-page/Hello';
 import ContactForm from '../components/home-page/ContactForm';
 
 export default function Home() {
+   
     return (
         <Fragment>
             <Head>
