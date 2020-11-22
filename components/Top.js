@@ -1,5 +1,4 @@
-import React, { Children } from 'react';
-import Input from './demo/Input';
+import React from 'react';
 
 export default function Top({ children }) {
     return (

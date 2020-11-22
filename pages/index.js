@@ -1,4 +1,5 @@
 import Head from 'next/head';
+
 import { Fragment } from 'react';
 import SkipToMainContentLink from '../components/SkipToMainContentLink';
 import Header from '../components/Header';
