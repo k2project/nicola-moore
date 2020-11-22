@@ -20,6 +20,7 @@
 }
 .top-rel {
     position: relative;
+    animation: fadeIn 0.5s forwards;
 }
 
 .top-strapline {
@@ -79,8 +80,6 @@ img.mobile {
     }
 }
 @include tablet {
-    .top {
-    }
     img.side {
         opacity: 0;
     }
