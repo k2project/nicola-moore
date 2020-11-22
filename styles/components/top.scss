@@ -9,10 +9,12 @@
         opacity: 0.9;
     }
 }
+
 .top-rel,
 .top-abs {
     min-width: 130rem;
     width: 90%;
+    height: auto;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

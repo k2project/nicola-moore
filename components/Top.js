@@ -3,11 +3,14 @@ import React from 'react';
 export default function Top({ children }) {
     return (
         <section className='top' id='top'>
+           
             <img
                 src='/imgs/bg_home_2.2.png'
                 alt=''
                 className='top-rel desktop'
-                id="imgTop1"
+                rel="preload"
+                width='200'
+                height='50'
             />
             <div>
                 <img
