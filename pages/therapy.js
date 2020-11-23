@@ -32,7 +32,7 @@ export default function Therapy() {
                 />
                 <meta
                     property='og:url'
-                    content='http://www.nicolamooretherapy.co.uk/therapy'
+                    content='https://www.nicolamooretherapy.co.uk/therapy'
                 />
                 <meta property='og:type' content='website' />
                 <meta
@@ -41,7 +41,7 @@ export default function Therapy() {
                 />
                 <meta
                     property='og:image'
-                    content='http://www.nicolamooretherapy.co.uk/nicola_moore_small.png'
+                    content='https://www.nicolamooretherapy.co.uk/nicola_moore_small.png'
                 />
                 <script
                     async
