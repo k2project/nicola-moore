@@ -3,7 +3,7 @@
     z-index: -1;
     background-image: url('/imgs/nicola_moore.png');
     background-position: right center;
-    min-height: 90vh;
+    height: 62rem;
     .cover--white {
         background: rgba(220, 220, 225, 0.1);
     }
@@ -11,7 +11,7 @@
 .nicola .section-stripline h2 {
     font-size: 5rem;
     line-height: 1;
-    padding-top: 2rem;
+    padding-top: 4rem;
     font-weight: 200;
 }
 .professional-bodies {
@@ -57,9 +57,10 @@
 
 @include tablet {
     .nicola .section-img {
-        background-position: 20% center;
+        padding-top: 20%;
+        background-position: 60% center;
         .cover--white {
-            background: rgba(220, 220, 225, 0.3);
+            background: rgba(220, 220, 225, 0.1);
         }
     }
     .expertise {
@@ -72,8 +73,8 @@
 }
 @include mobile {
     .nicola .section-img {
-        padding-top: 35%;
-        background-position: 60% center;
+        background-position: 80% center;
+        margin-bottom: 20rem;
         span {
             display: block;
         }
@@ -84,12 +85,29 @@
             width: 48%;
         }
     }
+    .nicola .section-stripline {
+        background-color: #fff;
+        width: 100%;
+        position: absolute;
+        bottom: -15rem;
+        left: 0;
+        display: block;
+        text-align: center;
+        font-size: 3rem;
+        b {
+            text-transform: uppercase;
+            font-size: 4.5rem;
+            line-height: 1.2;
+        }
+    }
+    .nicola .section-stripline h2 {
+        font-size: 3.8rem;
+    }
 }
 @include mobile-sm {
     .nicola .section-img {
         height: 90vh;
-        padding-top: 100%;
-        background-position: 65% center;
+        background-position: 70% center;
     }
     .expertise {
         li {
@@ -108,10 +126,11 @@
         }
     }
     .nicola .section-stripline h2 {
-        line-height: 0.8;
+        font-size: 2.8rem;
         b {
-            font-size: 3.5rem;
-            top: -0.6rem;
+            font-size: 3.4rem;
+            line-height: 1.3;
+            padding-bottom: 2rem;
         }
     }
 }
