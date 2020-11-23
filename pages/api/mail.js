@@ -43,7 +43,7 @@ export default (req, res) => {
             <a href="https://www.nicolamooretherapy.co.uk/therapy#faqs" target="_blank" style="text-decoration: none;cursor:pointer;">
                 <span style="margin:3px 10px;display:inline-block;">FAQ</span>
             </a>
-            <a href="https://www.nicolamooretherapy.co.uk/therapy/fees" target="_blank" style="text-decoration: none;cursor:pointer;">
+            <a href="https://www.nicolamooretherapy.co.uk/therapy#fees" target="_blank" style="text-decoration: none;cursor:pointer;">
                 <span style="margin:3px 10px;display:inline-block;">Fees</span>
             </a>
         </div>
