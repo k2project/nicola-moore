@@ -41,7 +41,7 @@ export default function Therapy() {
                 />
                 <meta
                     property='og:image'
-                    content='https://www.nicolamooretherapy.co.uk/nicola_moore_small.png'
+                    content='https://www.nicolamooretherapy.co.uk/imgs/nicola_moore_small.png'
                 />
                 <script
                     async
