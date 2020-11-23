@@ -29,21 +29,21 @@ export default (req, res) => {
             <p style="font-size:65px;font-weight:100;margin-bottom:10px;">Session requested.
             </p>
             ${contactDetails}
-            <a href="" target="_blank" style="text-decoration: none;cursor:pointer;">
+            <a href="https://www.nicolamooretherapy.co.uk/" target="_blank" style="text-decoration: none;cursor:pointer;">
                 <span style="color:#fff;background-color:#88E2CE;padding:15px 30px;border-radius:30px;font-size:16px;line-height:1.4;">Vsit the website</span>
             </a>
         </div>
         <div style="color:#aaa;font-size:16px;margin:50px auto 0; text-align: center; border-top:solid 1px #a1a1a1;padding-top:20px;">
-            <a href="" target="_blank" style="text-decoration: none;cursor:pointer;">
+            <a href="https://www.nicolamooretherapy.co.uk/about" target="_blank" style="text-decoration: none;cursor:pointer;">
                 <span style="margin:3px 10px;display:inline-block;">About Nicola</span>
             </a>
-            <a href="" target="_blank" style="text-decoration: none;cursor:pointer;">
+            <a href="https://www.nicolamooretherapy.co.uk/therapy" target="_blank" style="text-decoration: none;cursor:pointer;">
                 <span style="margin:3px 10px;display:inline-block;">Therapy</span>
             </a>
-            <a href="" target="_blank" style="text-decoration: none;cursor:pointer;">
+            <a href="https://www.nicolamooretherapy.co.uk/therapy#faqs" target="_blank" style="text-decoration: none;cursor:pointer;">
                 <span style="margin:3px 10px;display:inline-block;">FAQ</span>
             </a>
-            <a href="" target="_blank" style="text-decoration: none;cursor:pointer;">
+            <a href="https://www.nicolamooretherapy.co.uk/therapy/fees" target="_blank" style="text-decoration: none;cursor:pointer;">
                 <span style="margin:3px 10px;display:inline-block;">Fees</span>
             </a>
         </div>
