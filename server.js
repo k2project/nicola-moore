@@ -1,7 +1,6 @@
 const next = require('next');
 const express = require('express');
-// const sslRedirect = require('heroku-ssl-redirect').default;
-const secure = require('express-force-https');
+const sslRedirect = require('heroku-ssl-redirect').default;
 
 const port = parseInt(process.env.PORT, 10) || 3000;
 const dev = process.env.NODE_ENV !== 'production';
@@ -12,8 +11,7 @@ app.prepare().then(() => {
   const server = express();
 
   // redirect to SSL
-  // server.use(sslRedirect());
-  app.use(secure);
+  server.use(sslRedirect());
 
   server.all('*', (req, res) => {
     return handle(req, res);
