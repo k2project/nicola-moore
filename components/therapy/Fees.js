@@ -5,7 +5,7 @@ export default function Fees() {
         <section className='section-text bg--theme fees' id='fees'>
             <h2 className='section-title'>Fees</h2>
             <p>
-                <b>An initial consultation is £50</b> £50 and is where we start.
+                <b>An initial consultation is £50</b> and is where we start.
                  You will be able to tell me something about yourself and what
                 you think the issue(s) is that you want to tackle. We can
                 discuss what therapy might be like for you and what the time
