@@ -6,8 +6,7 @@ export default function Qualifications() {
                     <div className='cover cover--white'></div>
                     <div className='section-stripline'>
                         <h2>
-                            A
-                            fully qualified
+                            A fully qualified
                             <br /> <b>Psychotherapist</b>
                             <br /> in London
                         </h2>
@@ -43,10 +42,10 @@ export default function Qualifications() {
                         and neuroscience.
                     </p>
                     <p>
-                        Before becoming a psychotherapist I had a career in the arts and 
-                        creative businesses, so I am particularly interested in
-                        how creative talent works effectively within the
-                        commercial world.
+                        Before becoming a psychotherapist I had a career in the
+                        arts and creative businesses, so I am particularly
+                        interested in how creative talent works effectively
+                        within the commercial world.
                     </p>
 
                     <ul
@@ -54,33 +53,78 @@ export default function Qualifications() {
                         className='professional-bodies'
                     >
                         <li>
-                            <img
-                                src='/imgs/ukcplogo.png'
-                                alt='UK Council
+                            <a
+                                href='https://www.psychotherapy.org.uk/therapist/nicola-moore-iai0zaac/'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                <img
+                                    src='/imgs/ukcplogo.png'
+                                    alt='UK Council
                                 for Psychotherapy member'
-                            />
+                                />
+                            </a>
                         </li>
                         <li>
-                            <img
-                                src='/imgs/fpc.png'
-                                alt='FPC (the graduate body of WPF) member'
-                            />
+                            <a
+                                href='https://www.thefpc.org.uk/'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                <img
+                                    src='/imgs/fpc.png'
+                                    alt='FPC (the graduate body of WPF) member'
+                                />
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                href='https://www.gov.uk/government/organisations/disclosure-and-barring-service'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                <img
+                                    src='/imgs/dbs.png'
+                                    alt='Disclosure and Barring Service'
+                                />
+                            </a>
                         </li>
                         <li>
-                            <img
-                                src='/imgs/bpclogo.png'
-                                alt='British Psychoanalytic
-                                Council member'
-                            />
+                            <a
+                                href='https://www.forensicpsychotherapy.org/'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                <img
+                                    src='/imgs/iafp.png'
+                                    alt='International Association for Forensic Psychotherapy (IAFP)'
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href='https://www.psychologytoday.com/gb/counselling/nicola-moore-london-eng/759637'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                <img
+                                    src='/imgs/psychologytoday.png'
+                                    alt='Psychology Today Verified Member'
+                                />
+                            </a>
                         </li>
                     </ul>
 
                     <p id='membership'>
                         <strong>
-                            I am a registered member of the UKCP (UK Council for
-                            Psychotherapy), BPC (British Psychoanalytic Council)
-                            and FPC (the graduate body of WPF) and I comply with
-                            their professional ethical codes.
+                            I am a registered member of the United Kingdom
+                            Council for Psychotherapy (UKCP) and Foundation for
+                            Psychotherapy & Counseling (FPC) and adhere to their
+                            Code of Ethics and Professional Practice. I am a
+                            member of the International Association for Forensic
+                            Psychotherapy (IAFP). I hold an enhanced certificate
+                            from the Disclosure and Barring Service.
                         </strong>
                     </p>
                 </div>

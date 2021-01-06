@@ -13,15 +13,28 @@ export const faqs = [
     {
         q: 'I’m not sure I can afford therapy - do you offer reduced fees?',
         a: (
-            <p>
-                I understand that therapy can be a serious financial commitment.
-                It is worth investigating whether your employer can offer
-                sessions via an Employee Assistance Programme (I have experience
-                with Validium, Lifeworks and Compsych) or a private health
-                provider - I am registered with most major providers including
-                BUPA, Cigna, AXA PPP. On occasion, I can offer a reduced fee and
-                we can discuss this.
-            </p>
+            <>
+                <p>
+                    I understand that therapy can be a serious financial
+                    commitment. It is worth investigating whether your employer
+                    can offer sessions via an Employee Assistance Programme (I
+                    have experience with Validium, Lifeworks and Compsych) or a
+                    private health provider - I am registered with most major
+                    providers including BUPA, Cigna, AXA PPP. On occasion, I can
+                    offer a reduced fee and we can discuss this.
+                </p>
+                <ul className='logos'>
+                    <li>
+                        <img src='/imgs/bupa.png' alt='BUPA' />
+                    </li>
+                    <li>
+                        <img src='/imgs/axa.png' alt='AXA PPP' />
+                    </li>
+                    <li>
+                        <img src='/imgs/cigna.png' alt='CIGNA' />
+                    </li>
+                </ul>
+            </>
         ),
     },
     {
@@ -105,20 +118,20 @@ export const faqs = [
         q:
             ' I’m not in crisis now but I’m interested in what therapy can do for me.',
         a: (
-            <p>
-                Psychotherapy isn’t just for those times of crisis although,
-                of course, this is when it can be of real help. But at other times we want
-                to learn about ourselves to get more out of life, to live, love
-                and play with more intensity, satisfaction and joy. Socrates
-                said something of this:{' '}
-                <blockquote>
-                    An unexamined life is not worth living.
-                </blockquote>
-                and
+            <>
+                <p>
+                    Psychotherapy isn’t just for those times of crisis although,
+                    of course, this is when it can be of real help. But at other
+                    times we want to learn about ourselves to get more out of
+                    life, to live, love and play with more intensity,
+                    satisfaction and joy. Socrates said something of this:{' '}
+                </p>
+                <blockquote>An unexamined life is not worth living.</blockquote>
+                <p>and</p>
                 <blockquote>
                     Not life, but good life, is to be chiefly valued.
                 </blockquote>
-            </p>
+            </>
         ),
     },
 ];

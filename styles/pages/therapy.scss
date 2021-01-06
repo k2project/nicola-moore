@@ -49,4 +49,25 @@
             transition: 0.25s;
         }
     }
+    blockquote {
+        font-size: 1.4rem;
+        margin-top: -1rem;
+    }
+    .logos {
+        img {
+            height: 5rem;
+            margin-right: 2rem;
+        }
+
+        li {
+            border: none;
+            display: inline-block;
+        }
+    }
+}
+@include mobile {
+    .faqs .logos img {
+        height: 4rem;
+        margin: 0.5rem 1.4rem -2rem 0;
+    }
 }

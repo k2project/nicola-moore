@@ -19,10 +19,16 @@
     li {
         display: inline-block;
         img {
-            height: 6rem;
-            margin-right: 3rem;
+            height: 5.5rem;
+            margin: 1rem 2rem 1rem 0;
+
+            filter: grayscale(100%);
         }
     }
+}
+.pblogo {
+    filter: grayscale(100%);
+    top: -0.7rem;
 }
 .expertise {
     padding: 2rem 0 4rem;
@@ -103,6 +109,14 @@
     .nicola .section-stripline h2 {
         font-size: 3.8rem;
     }
+    .professional-bodies {
+        li {
+            img {
+                height: 4.5rem;
+                margin-right: 1rem;
+            }
+        }
+    }
 }
 @include mobile-sm {
     .nicola .section-img {
@@ -116,12 +130,10 @@
         }
     }
     .professional-bodies {
-        display: flex;
-        justify-content: space-around;
         li {
             img {
-                height: 5rem;
-                margin-right: 0.5rem;
+                height: 4rem;
+                margin-right: 1rem;
             }
         }
     }
