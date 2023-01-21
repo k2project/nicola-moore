@@ -40,8 +40,7 @@ export default function ContactForm() {
             document.getElementById('details').focus();
             return setError({
                 link: 'details',
-                text:
-                    'Please provide either a valid email address or a mobile in digital format with optional country code eg. +44 . Alternatively, send me an email at njmoore63@outlook.com . ',
+                text: 'Please provide either a valid email address or a mobile in digital format with optional country code eg. +44 . Alternatively, send me an email at njmoore63@outlook.com . ',
             });
         }
 
@@ -72,11 +71,10 @@ export default function ContactForm() {
             }, 5000);
         } catch (error) {
             setMessage({
-                text:
-                    'We are sorry but we were unable to send your message. Please contact Nicola directly on njmoore63@outlook.com.',
+                text: 'We are sorry but we were unable to send your message. Please contact Nicola directly on njmoore63@outlook.com.',
                 status: 'error',
             });
-            console.log(error);
+            // console.log(error);
         }
     };
     return (
