@@ -44,9 +44,12 @@ body {
 }
 
 p {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    margin-bottom: 1.4rem;
     line-height: 1.6;
+}
+p strong {
+    line-height: 1.5 !important;
 }
 .btn-box {
     margin-top: 3rem;
@@ -55,14 +58,14 @@ p {
     color: $COLOR_DARK;
     border: solid 0.1rem $COLOR_DARK;
     border-radius: 3rem;
-    padding: 1.2rem;
-    min-width: 20rem;
+    padding: 1.4rem;
+    min-width: 22rem;
     margin-right: 1.5rem;
     margin-bottom: 0.7rem;
     margin-top: 0.7rem;
     text-align: center;
     display: inline-block;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .btn:hover,
