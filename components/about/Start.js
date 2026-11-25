@@ -12,20 +12,18 @@ export default function Start() {
                 made contact using the contact form below, I usually suggest we
                 have a brief phone call to ascertain if I can offer you the
                 right support and if so, we meet to have an 
-                <Link href='/therapy#fees'>
-                    <a>initial consultation.</a>
-                </Link>{' '}
-                If speaking with me then doesn’t feel right for you, I do not
-                take it personally and encourage you to seek help elsewhere with
+                <Link href='/therapy#fees'>initial consultation.</Link> If
+                speaking with me then doesn’t feel right for you, I do not take
+                it personally and encourage you to seek help elsewhere with
                 someone you feel is better suited.
             </p>
 
             <div className='btn-box'>
-                <Link href='/therapy#fees'>
-                    <a className='btn btn--theme'>Fees</a>
+                <Link href='/therapy#fees' className='btn btn--theme'>
+                    Fees
                 </Link>
-                <Link href='/#contact'>
-                    <a className='btn btn--theme'>Contact me</a>
+                <Link href='/#contact' className='btn btn--theme'>
+                    Contact me
                 </Link>
             </div>
         </section>

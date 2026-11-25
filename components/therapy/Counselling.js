@@ -89,9 +89,7 @@ export default function Counselling() {
             </p>
 
             <div className='btn-box'>
-                <Link href='/about'>
-                    <a className='btn btn--theme'>Read about me</a>
-                </Link>
+                <Link href='/about' className='btn btn--theme'>Read about me</Link>
             </div>
         </section>
     );

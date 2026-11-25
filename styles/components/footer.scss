@@ -1,3 +1,6 @@
+@use '../var' as *;
+@use '../mixins' as *;
+
 footer {
     background-color: $COLOR_SECONDARY_DARK;
     padding: 4rem 2rem 3rem;

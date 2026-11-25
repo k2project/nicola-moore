@@ -49,7 +49,7 @@ export default function Qualifications() {
                     </p>
 
                     <ul
-                        aria-labelledby='professional membership'
+                        aria-label='professional membership'
                         className='professional-bodies'
                     >
                         <li>

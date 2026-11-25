@@ -1,3 +1,6 @@
+@use '../var' as *;
+@use '../mixins' as *;
+
 .online .section-img {
     background-image: url('/imgs/girl_w_laptop_2_flipped.png');
 }

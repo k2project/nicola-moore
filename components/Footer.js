@@ -6,39 +6,25 @@ export default function Footer() {
         <footer>
             <ul aria-label='footer website navigation'>
                 <li>
-                    <Link href='/'>
-                        <a>Home</a>
-                    </Link>
+                    <Link href='/'>Home</Link>
                 </li>
                 <li>
-                    <Link href='/#online'>
-                        <a>Online Service</a>
-                    </Link>
+                    <Link href='/#online'>Online Service</Link>
                 </li>
                 <li>
-                    <Link href='/about'>
-                        <a>Therapist</a>
-                    </Link>
+                    <Link href='/about'>Therapist</Link>
                 </li>
                 <li>
-                    <Link href='/therapy'>
-                        <a>Therapy</a>
-                    </Link>
+                    <Link href='/therapy'>Therapy</Link>
                 </li>
                 <li>
-                    <Link href='/therapy#fees'>
-                        <a>Fees</a>
-                    </Link>
+                    <Link href='/therapy#fees'>Fees</Link>
                 </li>
                 <li>
-                    <Link href='/therapy#faqs'>
-                        <a>FAQs</a>
-                    </Link>
+                    <Link href='/therapy#faqs'>FAQs</Link>
                 </li>
                 <li>
-                    <Link href='/#contact'>
-                        <a>Contact</a>
-                    </Link>
+                    <Link href='/#contact'>Contact</Link>
                 </li>
             </ul>
             Nicola Moore Counselling &amp; Psychotherapy &copy;

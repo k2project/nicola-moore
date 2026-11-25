@@ -48,11 +48,11 @@ export default function Hello() {
                     </div>
                 </div>
                 <div className='btn-box'>
-                    <Link href='/about'>
-                        <a className='btn btn--theme'>More about me</a>
+                    <Link href='/about' className='btn btn--theme'>
+                        More about me
                     </Link>
-                    <Link href='/therapy'>
-                        <a className='btn btn--theme'>What's therapy about?</a>
+                    <Link href='/therapy' className='btn btn--theme'>
+                        What's therapy about?
                     </Link>
                 </div>
             </div>

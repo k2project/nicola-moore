@@ -1,3 +1,6 @@
+@use '../var' as *;
+@use '../mixins' as *;
+
 .nicola .section-img {
     margin-top: -0.1rem;
     z-index: -1;

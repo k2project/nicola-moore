@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import { Fragment} from 'react';
+import { Fragment } from 'react';
 import SkipToMainContentLink from '../components/SkipToMainContentLink';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -10,7 +10,6 @@ import Hello from '../components/home-page/Hello';
 import ContactForm from '../components/home-page/ContactForm';
 
 export default function Home() {
-    
     return (
         <Fragment>
             <Head>
@@ -46,24 +45,6 @@ export default function Home() {
                     property='og:image'
                     content='https://www.nicolamooretherapy.co.uk/imgs/nicola_moore_small.png'
                 />
-                <script
-                    async
-                    src='https://www.googletagmanager.com/gtag/js?id=[Tracking ID]'
-                />
-                <script
-                    async
-                    src='https://www.googletagmanager.com/gtag/js?id=UA-180574978-1'
-                ></script>
-                <script
-                    dangerouslySetInnerHTML={{
-                        __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-180574978-1');
-        `,
-                    }}
-                />
             </Head>
             <SkipToMainContentLink />
             <Header />
@@ -84,13 +65,3 @@ export default function Home() {
         </Fragment>
     );
 }
-
-// <!-- Global site tag (gtag.js) - Google Analytics -->
-// <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180574978-1"></script>
-// <script>
-//   window.dataLayer = window.dataLayer || [];
-//   function gtag(){dataLayer.push(arguments);}
-//   gtag('js', new Date());
-
-//   gtag('config', 'UA-180574978-1');
-// </script>

@@ -43,20 +43,6 @@ export default function Therapy() {
                     property='og:image'
                     content='https://www.nicolamooretherapy.co.uk/imgs/nicola_moore_small.png'
                 />
-                <script
-                    async
-                    src='https://www.googletagmanager.com/gtag/js?id=UA-180574978-1'
-                ></script>
-                <script
-                    dangerouslySetInnerHTML={{
-                        __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-180574978-1');
-        `,
-                    }}
-                />
             </Head>
 
             <SkipToMainContentLink />

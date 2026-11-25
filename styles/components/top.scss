@@ -1,3 +1,6 @@
+@use '../var' as *;
+@use '../mixins' as *;
+
 .top {
     background-color: $COLOR_THEME;
     padding: 0;

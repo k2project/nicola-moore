@@ -1,6 +1,10 @@
+@use 'sass:color';
+@use '../var' as *;
+@use '../mixins' as *;
+
 .faqs {
     li {
-        border-bottom: solid 0.1rem darken($COLOR_LIGHT, 10%);
+        border-bottom: solid 0.1rem color.adjust($COLOR_LIGHT, $lightness: -10%);
         padding: 1.5rem 0;
     }
     summary {

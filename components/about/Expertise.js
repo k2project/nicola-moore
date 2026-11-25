@@ -119,11 +119,11 @@ export default function Expertise() {
                 </strong>
             </p>
             <div className='btn-box'>
-                <Link href='/therapy'>
-                    <a className='btn btn--theme'>More about therapy</a>
+                <Link href='/therapy' className='btn btn--theme'>
+                    More about therapy
                 </Link>
-                <Link href='/therapy#faq'>
-                    <a className='btn btn--theme'>FAQ</a>
+                <Link href='/therapy#faqs' className='btn btn--theme'>
+                    FAQ
                 </Link>
             </div>
         </section>

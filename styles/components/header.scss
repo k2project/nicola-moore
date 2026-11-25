@@ -1,3 +1,6 @@
+@use '../var' as *;
+@use '../mixins' as *;
+
 header {
     padding: 3.5rem 10% 3rem;
     display: flex;
@@ -61,5 +64,18 @@ header {
             padding: 2.7rem 0;
             width: 100%;
         }
+    }
+}
+
+header .label--short {
+    display: none;
+}
+
+@include mobile-sm {
+    header .label--long {
+        display: none;
+    }
+    header .label--short {
+        display: inline;
     }
 }

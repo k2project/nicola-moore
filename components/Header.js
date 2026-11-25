@@ -1,62 +1,33 @@
-import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
+// Short labels are swapped in on small screens via CSS (see header.scss),
+// so the header renders on the server and never mismatches during hydration.
 export default function Header() {
-    if (typeof window === 'undefined') return null;
-    let mql = window.matchMedia('(max-width: 480px)');
-    const [isMob, setIsMob] = useState(mql.matches);
-
-    const checkIfIsMob = () => {
-        mql = window.matchMedia('(max-width: 480px)');
-        setIsMob(mql.matches);
-    };
-    useEffect(() => {
-        window.addEventListener('resize', checkIfIsMob, false);
-        window.addEventListener('load', checkIfIsMob, false);
-        return () => {
-            window.removeEventListener('resize', checkIfIsMob, false);
-            window.removeEventListener('load', checkIfIsMob, false);
-        };
-    }, [checkIfIsMob]);
     return (
         <header>
             <h1>
                 <Link href='/'>
-                    <a>
-                        nicola<span className='color--theme'>moore</span>
-                    </a>
+                    nicola<span className='color--theme'>moore</span>
                 </Link>
             </h1>
             <nav>
                 <ul aria-label='website main navigation'>
                     <li>
-                        {!isMob && (
-                            <Link href='/about'>
-                                <a>Get to know me</a>
-                            </Link>
-                        )}
-                        {isMob && (
-                            <Link href='/about'>
-                                <a>Therapist</a>
-                            </Link>
-                        )}
-                    </li>
-                    <li>
-                        {!isMob && (
-                            <Link href='/therapy'>
-                                <a>What's therapy about?</a>
-                            </Link>
-                        )}
-                        {isMob && (
-                            <Link href='/therapy'>
-                                <a>Therapy</a>
-                            </Link>
-                        )}
-                    </li>
-                    <li>
-                        <Link href='/#contact'>
-                            <a>Contact me</a>
+                        <Link href='/about'>
+                            <span className='label--long'>Get to know me</span>
+                            <span className='label--short'>Therapist</span>
                         </Link>
+                    </li>
+                    <li>
+                        <Link href='/therapy'>
+                            <span className='label--long'>
+                                What's therapy about?
+                            </span>
+                            <span className='label--short'>Therapy</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/#contact'>Contact me</Link>
                     </li>
                 </ul>
             </nav>

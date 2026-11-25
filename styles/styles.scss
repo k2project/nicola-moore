@@ -1,13 +1,10 @@
-@import './var.scss';
-@import './mixins.scss';
-@import './reset.scss';
-@import './global.scss';
+@use 'reset';
+@use 'global';
 
-@import './pages/home.scss';
-@import './pages/about.scss';
-@import './pages/therapy.scss';
+@use 'pages/home';
+@use 'pages/about';
+@use 'pages/therapy';
 
-@import './components/header.scss';
-@import './components/footer.scss';
-@import './components/top.scss';
-@import './components/demo.scss';
+@use 'components/header';
+@use 'components/footer';
+@use 'components/top';
