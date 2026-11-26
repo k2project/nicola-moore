@@ -5,11 +5,11 @@ export default function Qualifications() {
                 <div className='section-img'>
                     <div className='cover cover--white'></div>
                     <div className='section-stripline'>
-                        <h2>
+                        <h1>
                             A fully qualified
                             <br /> <b>Psychotherapist</b>
                             <br /> in London
-                        </h2>
+                        </h1>
                     </div>
                 </div>
                 <div

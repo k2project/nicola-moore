@@ -5,11 +5,11 @@ import Link from 'next/link';
 export default function Header() {
     return (
         <header>
-            <h1>
+            <div className='logo'>
                 <Link href='/'>
                     nicola<span className='color--theme'>moore</span>
                 </Link>
-            </h1>
+            </div>
             <nav>
                 <ul aria-label='website main navigation'>
                     <li>

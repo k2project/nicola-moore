@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Seo from '../components/seo/Seo';
 import { Fragment } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -10,41 +10,11 @@ import Start from '../components/about/Start';
 export default function About() {
     return (
         <Fragment>
-            <Head>
-                <title>
-                    About Nicola Moore | Counselling and Psychotherapy
-                </title>
-                <meta
-                    name='description'
-                    content='I am a fully qualified Psychotherapist (registered with UKCP and FPC). I help with anxiety, depressed mood, anger, trauma, relationship dissatisfaction, attachment issues, grief, body dysmorphia, issues with sexuality and gender, low self-esteem and self-identity, and more. I have worked within the NHS and charities seeing a diverse group of service users.'
-                />
-                <meta
-                    name='keywords'
-                    content='Nicola More, Counselling, Psychotherapy, Psychoterapist, qualified, trained, experienced, ukcp therapist '
-                />
-                <meta name='author' content='@_k2project' />
-                <meta
-                    name='viewport'
-                    content='width=device-width, initial-scale=1.0'
-                />
-                <meta
-                    property='og:title'
-                    content='About Nicola Moore | Counselling and Psychotherapy'
-                />
-                <meta
-                    property='og:url'
-                    content='https://www.nicolamooretherapy.co.uk/about'
-                />
-                <meta property='og:type' content='website' />
-                <meta
-                    property='og:description'
-                    content='I am a fully qualified Psychotherapist (registered with UKCP and FPC). I help with anxiety, depressed mood, anger, trauma, relationship dissatisfaction, attachment issues, grief, body dysmorphia, issues with sexuality and gender, low self-esteem and self-identity, and more. I have worked within the NHS and charities seeing a diverse group of service users.'
-                />
-                <meta
-                    property='og:image'
-                    content='https://www.nicolamooretherapy.co.uk/imgs/nicola_moore_small.png'
-                />
-            </Head>
+            <Seo
+                title='Qualified UKCP Psychotherapist'
+                description='Nicola Moore is a qualified psychodynamic psychotherapist (UKCP, FPC) in London, helping with anxiety, depression, trauma, grief, relationships and more.'
+                path='/about'
+            />
             <SkipToMainContentLink />
             <Header />
             <main>

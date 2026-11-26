@@ -5,7 +5,7 @@ header {
     padding: 3.5rem 10% 3rem;
     display: flex;
     align-items: center;
-    h1 a {
+    .logo a {
         font-size: 3rem;
         font-weight: 400;
     }
@@ -28,7 +28,7 @@ header {
         border-bottom: solid 0.1rem #111;
     }
 
-    h1 a:hover {
+    .logo a:hover {
         text-decoration: none;
         border-bottom: solid 0.1rem #111;
     }
@@ -48,12 +48,12 @@ header {
         display: block;
         padding: 0;
         text-align: center;
-        h1 {
+        .logo {
             background-color: #2a2a36;
             color: #fff;
             padding: 2.5rem 5%;
         }
-        h1 a:hover {
+        .logo a:hover {
             border-bottom: none;
         }
         nav {
